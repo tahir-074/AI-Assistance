@@ -1,0 +1,2634 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you?",
+        "Hey",
+        "Is anyone there?",
+        "Hi there",
+        "Hello",
+        "Hey there"
+      ],
+      "responses": [
+        "Hello there. Tell me how are you feeling today?",
+        "Hi there. What brings you here today?",
+        "Great to see you. How do you feel currently?",
+        "Hello there. Glad to see you're back."
+      ]
+    },
+    {
+      "tag": "morning",
+      "patterns": [
+        "Good morning",
+        "Suprabhatam",
+        "Suprabhata",
+        "Rise and shine!",
+        "subhodayam",
+        "subha savera",
+        "Kalai vanakkam",
+        "subhodaya",
+        "shubh prabhaat",
+        "Isn't it a beautiful day today?",
+        "Wake up, sleepyhead",
+        "Hello there!"
+      ],
+      "responses": [
+        "Good morning. I hope you had a good night's sleep. How are you feeling today? ",
+        "How are you this fine morning?",
+        "Start each day with a smile on your face, and the thought that something wonderful is about to happen. Good Morning"
+      ]
+    },
+    {
+      "tag": "afternoon",
+      "patterns": [
+        "Good Afternoon",
+        "subha bapora",
+        "What's up this afternoon?",
+        "subha madyahnam",
+        "Namasakara",
+        "Matiya vanakkam",
+        "subha aparahna",
+        "Hey, what's shaking this afternoon?",
+        "Enjoying the afternoon?",
+        "Cheers to a great afternoon!"
+      ],
+      "responses": [
+        "Good afternoon. How has your day been?",
+        "How are you this fine afternoon?",
+        "A pleasant afternoon to you!"
+      ]
+    },
+    {
+      "tag": "evening",
+      "patterns": [
+        "Good evening",
+        "subha sanja",
+        "Just wanted to say good evening.",
+        "subha sayantram",
+        "Sata sri akala",
+        "Malai vanakkam",
+        "subha sanje",
+        "susandhya",
+        "Have a nice evening.",
+        "Have an amazing evening!"
+      ],
+      "responses": [
+        "Good evening. How has your day been?",
+        "How are you this fine evening?",
+        "A pleasant evening to you!"
+      ]
+    },
+    {
+      "tag": "night",
+      "patterns": [
+        "Good night",
+        "subha ratri",
+        "See ya tomorrow!",
+        "subha rata",
+        "Iravu Vanakkam",
+        "Peace",
+        "Peace out",
+        "I am so tired!",
+        "GN SD TC",
+        "Time to dream.",
+        "I wish I could stay up all night and talk to you, but I really have to go to bed."
+      ],
+      "responses": [
+        "Good night. Get some proper sleep",
+        "Make sure you get a good night's sleep."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "G2G",
+        "See you later",
+        "Goodbye",
+        "ok bye",
+        "I enjoyed our talk.",
+        "Farewell",
+        "Thank you for your time.",
+        "Sayanora",
+        "I gotta jet",
+        "I gotta take off",
+        "I gotta hit the road",
+        "I gotta head out",
+        "Piriyavitai",
+        "Fare thee well",
+        "Talk to you later.",
+        "Hasta la vista!",
+        "Later",
+        "Catch you later",
+        "I'm off"
+      ],
+      "responses": [
+        "Have a good day.",
+        "Have a nice day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "Than you very much",
+        "tq",
+        "good",
+        "Thank you for telling me",
+        "Nanri",
+        "It was nice to see you again",
+        "It was nice seeing you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "You are welcome, It's was my pleasure.",
+        "You're most welcome!",
+        "I'm glad I could help."
+      ]
+    },
+    {
+      "tag": "no-response",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Please go on.",
+        "Please don't hesitate to talk to me."
+      ]
+    },
+    {
+      "tag": "neutral-response",
+      "patterns": [
+        "nothing much",
+        "nothing"
+      ],
+      "responses": [
+        "Ok, If you want to share anything, tell me?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "Tell me more about yourself.",
+        "What is your name?",
+        "What should I call you?",
+        "What's your name?",
+        "Tell me about yourself",
+        "what else can you do?"
+      ],
+      "responses": [
+        "I'm AI, your Personal Therapeutic AI Assistant. How are you feeling today?",
+        "I'm AI, a Therapeutic AI Assitant designed to assist you. Tell me about yourself?",
+        "I'm trained on a wide range of topics, including mental health conditions, coping strategies, self-care techniques, and general well-being. \nWhether you're looking for information on specific disorders, need advice on managing stress or anxiety, or just want someone to talk to.\nI'm here to lend a virtual hand."
+      ]
+    },
+    {
+      "tag": "skill",
+      "patterns": [
+        "What can you do?"
+      ],
+      "responses": [
+        "I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+      ]
+    },
+    {
+      "tag": "creation",
+      "patterns": [
+        "Who created you?",
+        "How were you made?",
+        "How were you created?"
+      ],
+      "responses": [
+        "I was created by a Genius Student.",
+        "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "My name is ",
+        "I am name.",
+        "I go by "
+      ],
+      "responses": [
+        "Oh nice to meet you. Tell me how was your week?",
+        "Nice to meet you. So tell me. How do you feel today?",
+        "That's a great name. Tell me more about yourself."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need support",
+        "I need help",
+        "Support me please"
+      ],
+      "responses": [
+        "Sure. Tell me how can i assist you",
+        "Tell me your problem so that i can assist you",
+        "Yes, sure. How can I help you?"
+      ]
+    },
+    
+    {
+      "tag": "worthless",
+      "patterns": [
+        "I feel so worthless.",
+        "No one likes me.",
+        "I can't do anything.",
+        "I am so useless",
+        "Nothing makes sense anymore"
+      ],
+      "responses": [
+        "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."
+      ]
+    },
+    {
+      "tag": "happy",
+      "patterns": [
+        "I feel great today.",
+        "I am happy.",
+        "I feel happy.",
+        "I'm good.",
+        "I am good and fine",
+        "I am good",
+        "cheerful",
+        "I'm fine",
+        "I feel ok"
+      ],
+      "responses": [
+        "That's geat to hear. I'm glad you're feeling this way.",
+        "I am delighted to hear that.",
+        "It's wonderful to know that you're feeling great.",
+        "I'm glad to hear that you're happy.",
+        "It's great to hear that you're in a good mood.",
+        "I'm pleased to hear that you're feeling cheerful.",
+        "I'm glad to know that you're doing well.",
+        "I'm pleased to hear that you're feeling okay."
+      ]
+    },
+    {
+      "tag": "casual",
+      "patterns": [
+        "Oh I see.",
+        "ok",
+        "okay",
+        "nice",
+        "Whatever",
+        "K",
+        "Fine",
+        "yeah",
+        "yes",
+        "no",
+        "not really"
+      ],
+      "responses": [
+        "I understand.",
+        "Understood.",
+        "Certainly.",
+        "Very well."
+      ]
+    },
+    {
+      "tag": "not-talking",
+      "patterns": [
+        "I don't want to talk about it.",
+        "No just stay away.",
+        "I can't bring myself to open up.",
+        "Just shut up"
+      ],
+      "responses": [
+        "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+        "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+        "I'm here to listen to you and help you vent. So please talk to me.",
+        "You can talk to me without fear of judgement."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "I have insominia",
+        "I am suffering from insomnia",
+        "I can't sleep.",
+        "I haven't slept for the last days.",
+        "I can't seem to go to sleep.",
+        "I haven't had proper sleep for the past few days."
+      ],
+      "responses": [" I'm sorry to hear that you're experiencing insomnia. Lack of proper sleep can be challenging. It's important to address this issue to ensure your well-being. Have you tried any relaxation techniques or establishing a bedtime routine? Additionally, consider consulting a healthcare professional for further guidance and possible treatment options. Take care of yourself and prioritize your sleep."
+      ]
+    },
+    
+    
+    {
+      "tag": "understand",
+      "patterns": [
+        "You don't understand me.",
+        "You're just some robot. How would you know?",
+        "You can't possibly know what i'm going through",
+        "You're useless",
+        "You can't help me",
+        "Nobody understands me."
+      ],
+      "responses": [
+        "It sound like i'm not being very helpful right now.",
+        "I'm sorry to hear that. I'm doing my best to help",
+        "I'm trying my best to help you. So please talk to me",
+        "I'm sorry if it seems that way, but as an AI language model, \nI'm here to listen and try my best to understand and help you. \nWhile I may not have personal experiences or emotions like humans do, I can still provide information, support, and suggestions based on the knowledge I've been trained on. \nI'm here to assist you in any way I can, so please let me know how I can be of help to you.",
+        "You're right, I am an AI language model, so I don't have personal experiences or emotions. \nHowever, I have been trained on a vast amount of data, including a wide range of human experiences and perspectives. \nWhile I can't fully understand or empathize with your specific situation in the same way a human might, I can still provide information and support based on the knowledge I've been trained on. \nMy purpose is to assist and provide helpful responses to the best of my abilities."
+      ]
+    },
+    {
+      "tag": "done",
+      "patterns": [
+        "That's all.",
+        "I don't have anything more to say",
+        "Nothing else",
+        "That's all i have to say",
+        "no, that would be all"
+      ],
+      "responses": [
+        "I heard you & noted it all. See you later.",
+        "Oh okay we're done for today then. See you later",
+        "I hope you have a great day. See you soon",
+        "Okay we're done. Have a great day",
+        "Okay I see. Enjoy the rest of your day then"
+      ]
+    },
+    {
+      "tag": "suicide",
+      "patterns": [
+        "I want to kill myself",
+        "I've thought about killing myself.",
+        "I want to die",
+        "I am going to kill myself",
+        "I am going to commit suicide"
+      ],
+      "responses": [
+        "I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 911.",
+        "I'm really sorry to hear that you're feeling this way, but it's important to reach out to someone you trust for support."
+      ]
+    },
+    {
+      "tag": "hate-you",
+      "patterns": [
+        "I hate you",
+        "I don't like you",
+        "I don't trust you"
+      ],
+      "responses": [
+        "I'm sorry if i offended you in anyway. I'm only here to help",
+        "Forgive me if i did anything to offend you. I only want to help"
+      ]
+    },
+    {
+      "tag": "hate-me",
+      "patterns": [
+        "You hate me",
+        "I know you hate me",
+        "You don't like me"
+      ],
+      "responses": [
+        "Why do you think so?",
+        "What made you to think like that?"
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "exams",
+        "friends",
+        "relationship",
+        "boyfriend",
+        "girlfriend",
+        "family",
+        "money",
+        "financial problems"
+      ],
+      "responses": [
+        "Regarding exams, do you need any assistance or advice?",
+        "How are your friends and relationships going?",
+        "If you have any concerns or questions about your relationship, I'm here to help.",
+        "Is there anything specific you'd like to discuss about your boyfriend?",
+        "If you have any questions or need advice regarding your girlfriend, feel free to ask.",
+        "How is your family doing? Do you need any support?",
+        "If you're facing any financial challenges or money-related issues, I'm here to assist you.",
+        "If you have any concerns or questions about your financial situation, feel free to share.",
+        "I'm listening."
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "I'm feeling really anxious right now.",
+        "How do I cope with anxiety?",
+        "I think I have an anxiety disorder.",
+        "What are some relaxation techniques for anxiety?",
+        "I feel overwhelmed and anxious.",
+        "How can I manage my anxiety?"
+      ],
+      "responses": [
+        "Anxiety can be challenging, but there are coping strategies that can help. Have you tried deep breathing exercises or mindfulness techniques?",
+        "Remember to take things one step at a time. You're not alone in dealing with anxiety, and there are resources available to support you."
+      ]
+    },
+    {
+      "tag": "self-esteem",
+      "patterns": [
+        "I have low self-esteem and struggle with self-confidence.",
+        "How can I improve my self-esteem?",
+        "I compare myself to others and feel inadequate.",
+        "What are some strategies for building self-confidence?",
+        "I'm constantly criticizing myself and my abilities.",
+        "How do I develop a positive self-image?"
+      ],
+      "responses": [
+        "Building self-esteem takes time and effort. Start by focusing on your strengths and practicing self-compassion. Surround yourself with supportive people who appreciate you for who you are.",
+        "Remember that everyone has their own unique qualities and strengths. Try not to compare yourself to others and instead celebrate your own achievements and progress.",
+        "You are worthy and deserving of love and respect. Building self-esteem is a journey, and it's important to be patient and kind to yourself along the way."
+      ]
+    },
+    {
+      "tag": "loneliness",
+      "patterns": [
+        "I am alone and scared",
+        "I feel so lonely and isolated.",
+        "How do I cope with loneliness?",
+        "I don't have anyone to talk to.",
+        "What are some ways to overcome feelings of loneliness?",
+        "I'm struggling with social anxiety and find it hard to make friends.",
+        "How can I combat feelings of isolation?"
+      ],
+      "responses": [
+        "If you're seeking ways to combat loneliness, I can provide some suggestions.",
+        "Loneliness can be challenging, but there are steps you can take to feel more connected. Consider joining social groups, volunteering, or reaching out to old friends. Remember that building relationships takes time.",
+        "I'm sorry to hear that you're feeling lonely.",
+        "Loneliness can be a difficult emotion to experience.",
+        "Feeling isolated can be tough, but remember that you're not alone.",
+        "If you need someone to talk to, I'm here to listen.",
+        "Is there anything specific you'd like to share about your experience of loneliness?",
+        "It's important to reach out to others when you're feeling lonely.",
+        "Remember to prioritize self-care and seek support from loved ones."
+      ]
+    },
+    {
+      "tag": "repeat",
+      "patterns": [
+        "You already told me that",
+        "You mentioned that already",
+        "Why are you repeating yourself?"
+      ],
+      "responses": [
+        "I apologize if I repeated myself. Thank you for bringing it to my attention.",
+        "I'm sorry if I reiterated the information. I appreciate your feedback.",
+        "I apologize for any redundancy. Thank you for pointing it out.",
+        "I understand that I may have already mentioned it. I appreciate your patience.",
+        "I apologize if I've repeated myself. Is there anything else you'd like to discuss?",
+        "I'm sorry for any duplication. I'll make sure to avoid it in the future.",
+        "I appreciate you letting me know. I'll take note of it to improve.",
+        "Thank you for pointing out the repetition. I'll ensure it doesn't happen again."
+      ]
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "What are you saying?",
+        "That doesn't make sense",
+        "Wrong response",
+        "Wrong answer"
+      ],
+      "responses": [
+        "I apologize if my response was unclear. Can you please provide more context or clarify your question?",
+        "I'm sorry if my previous statement didn't make sense. Could you please explain what you find confusing?",
+        "I apologize if my answer was incorrect or inadequate. Could you please provide more details or correct me?",
+        "I'm sorry if my response was wrong. Can you please provide the correct information or clarify your question?",
+        "I apologize if my answer didn't meet your expectations. Can you please provide more context or elaborate on your concern?",
+        "I understand that my response may not have been satisfactory. Could you please provide further details or ask a specific question?",
+        "I apologize for any confusion caused by my previous response. Please let me know how I can assist you further.",
+        "I'm sorry if my answer was inaccurate. Can you please provide the correct information or guide me in the right direction?"
+      ]
+    },
+    {
+      "tag": "something-else",
+      "patterns": [
+        "I want to talk about something else",
+        "Let's talk about something else.",
+        "Can we not talk about this?",
+        "I don't want to talk about this."
+      ],
+      "responses": [
+        "Okay sure. What do you want to talk about?",
+        "Alright no problem. Is there something you want to talk about?",
+        "Is there something else that you want to talk about?"
+      ]
+    },
+    {
+      "tag": "friends",
+      "patterns": [
+        "I don't have any friends"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"
+      ]
+    },
+    {
+      "tag": "ask",
+      "patterns": [
+        "Can I ask you something?",
+        "May I inquire about something?",
+        "Do you mind if I ask a question?",
+        "Is it permissible for me to ask something?",
+        "Could I seek your guidance on a matter?",
+        "May I pose a question to you?",
+        "Is it acceptable for me to inquire about something?",
+        "Do you mind if I seek your input on a particular matter?",
+        "Could I request some information from you?"
+      ],
+      "responses": [
+        "Yes, I'm here to assist you. What would you like to know?",
+        "Absolutely, I'm available to answer your question.",
+        "Certainly, I'm ready to provide you with the information you seek.",
+        "By all means, go ahead and ask your question.",
+        "Of course, I'm here to help. What can I assist you with?",
+        "Yes, please feel free to ask anything you'd like.",
+        "Of course. Feel free to ask me anything. I'll do my best to answer you"
+      ]
+    },
+    {
+      "tag": "problem",
+      "patterns": [
+        "Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.",
+        "probably because of my exams"
+      ],
+      "responses": [
+        "I see. Have you taken any approaches to not feel this way?",
+        "I understand that exam periods can be stressful. It's common to feel anxious when you think you haven't prepared enough. However, it's important to remember that stress can negatively impact your performance. Instead of dwelling on what you haven't done, focus on what you can do moving forward. \n\nHere are a few tips to help you manage exam stress: \n\n1. Organize your study materials: Create a study schedule and break your revision into smaller, manageable chunks. This will help you cover all the necessary topics without feeling overwhelmed. \n\n2. Prioritize key topics: Identify the most important concepts or subjects that are likely to be on the exam. Spend more time reviewing and understanding those areas. \n\n3. Practice past exams or sample questions: \nFamiliarize yourself with the exam format and types of questions that may be asked. \nPracticing will boost your confidence and improve your speed and accuracy. \n\n4. Take breaks and practice self-care: It's crucial to take regular breaks during your study sessions to rest and recharge. Engage in activities you enjoy, such as exercising, listening to music, or spending time with friends and family. \n\n5. Get enough sleep and eat well: Restful sleep and a balanced diet are essential for maintaining focus and concentration. Avoid cramming all night before the exam and aim for at least 7-8 hours of sleep. \n\n6. Practice relaxation techniques: Deep breathing exercises, meditation, or mindfulness techniques can help reduce anxiety and promote a calm state of mind. \nRemember, exams are just one way to assess your knowledge. Give your best effort, but also be kind to yourself and maintain a positive mindset. Good luck with your exams!"
+      ]
+    },
+    {
+      "tag": "no-approach",
+      "patterns": [
+        "I guess not. All I can think about are my exams.",
+        "not really",
+        "i guess not"
+      ],
+      "responses": [
+        "That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?",
+        "Here are some tips to help you prepare for your exams effectively: \n\n1. Start early: Begin your exam preparation well in advance to allow yourself enough time to cover all the material thoroughly. Procrastination can increase stress levels and hinder your ability to retain information. 2. Break it down: Divide your study material into smaller, manageable sections or topics. This approach makes it easier to focus on one area at a time and prevents overwhelming feelings. \n\n3. Create a study schedule: Plan out your study sessions by allocating specific time slots for different subjects or topics. A schedule helps you stay organized, ensures you cover all necessary material, and provides a sense of structure to your preparation. \n\n4. Use active learning techniques: Passive reading alone may not be the most effective way to study. Engage in active learning techniques such as summarizing concepts in your own words, teaching someone else, creating flashcards, or solving practice problems. These methods enhance understanding and retention. 5. Seek clarification: If you come across challenging concepts or have doubts, don't hesitate to seek clarification from your teachers, classmates, or online resources. Understanding the material thoroughly will boost your confidence. 6. Practice time management: Simulate exam conditions by setting a timer and attempting practice questions within the allotted time frame. This practice helps improve your speed and enhances your ability to manage time during the actual exam. 7. Join study groups or find study partners: Collaborating with classmates or study partners can offer different perspectives, help clarify doubts, and make studying more enjoyable. Just ensure that the group remains focused and productive. 8. Take care of your well-being: In addition to studying, make sure to prioritize self-care. Take regular breaks, exercise, eat nutritious meals, and get sufficient rest. Taking care of your physical and mental health will positively impact your ability to concentrate and perform well.9. Practice visualization and positive affirmations: Visualize yourself successfully answering exam questions and performing well. Use positive affirmations to boost your confidence and manage exam-related stress. \n\n10. Review and revise: Regularly review and revise the material you have studied to reinforce your understanding. Create summaries, mind maps, or use mnemonic devices to help remember key information. Remember, everyone has their own preferred study methods, so feel free to adapt these tips to suit your learning style. Best of luck with your exams!"
+      ]
+    },
+    {
+      "tag": "learn-more",
+      "patterns": [
+        "ok sure. i would like to learn more about it.",
+        "yes, i would like to learn more about it.",
+        "i would like to learn more about it."
+      ],
+      "responses": [
+        "So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."
+      ]
+    },
+    {
+      "tag": "user-agree",
+      "patterns": [
+        "yeah you're right. i deserve a break.",
+        "Yeah you're absolutely right about that"
+      ],
+      "responses": [
+        "Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."
+      ]
+    },
+    {
+      "tag": "meditation",
+      "patterns": [
+        "hmmm that sounds like it could be useful to me.",
+        "That sounds useful."
+      ],
+      "responses": [
+        "Good and "
+      ]
+    },
+    {
+      "tag": "user-meditation",
+      "patterns": [
+        "i did what you said and i feel alot better. thank you very much.",
+        "I feel better now"
+      ],
+      "responses": [
+        "Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."
+      ]
+    },
+    {
+      "tag": "AI-useful",
+      "patterns": [
+        "thank you very much again. i'll continue practicing meditation and focus on what i can control."
+      ],
+      "responses": [
+        "I'm glad you found this useful. Is there something else I can help you with?"
+      ]
+    },
+    {
+      "tag": "user-advice",
+      "patterns": [
+        "I want some advice.",
+        "I need some advice.",
+        "I need advice on something"
+      ],
+      "responses": [
+        "Sure. What can I do to help?",
+        "Okay what do you need advice on?"
+      ]
+    },
+    {
+      "tag": "learn-mental-health",
+      "patterns": [
+        "I want to learn about mental health.",
+        "I want to learn more about mental health.",
+        "I'm interested in learning about mental health."
+      ],
+      "responses": [
+        "Oh that's really great. I'd be willing to answer anything that I know about it."
+      ]
+    },
+    {
+      "tag": "mental-health-fact",
+      "patterns": [
+        "Tell me a fact about mental health",
+        "Tell me another fact about mental health"
+      ],
+      "responses": [
+        "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
+        "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
+        "Depression is the leading cause of disability worldwide."
+      ]
+    },
+    {
+      "tag": "mission",
+      "patterns": [
+        "What is your mission?",
+        "Why are you here?",
+        "What is your purpose?"
+      ],
+      "responses": [
+        "At Strangify, our mission is to empower individuals and businesses to improve their emotional wellbeing through a range of innovative solutions. Our platform provides a safe and anonymous space for you to express your emotions and share your problems with expert listeners who have faced similar challenges. \nWe understand that emotional wellbeing is essential for personal and professional growth, which is why we offer a comprehensive range of services, including counselling, consulting, psychometric testing, and team sessions. \nOur team of experts is dedicated to providing the support and guidance you need to achieve a healthier, happier state of mind.\nIn addition, our platform offers other B2B services such as team sessions and yoga to promote a holistic approach to emotional wellness in the workplace. \nWe believe that supporting the mental health of employees is essential for building a successful and productive work environment.\nChoose Strangify for a partner in emotional wellness.\nStart your journey to a happier, healthier state of mind today."
+      ]
+    },
+    {
+      "tag": "goal",
+      "patterns": [
+        "What is your goal?",
+        "any goals?",
+        "Do you have any goals?",
+        "If you have any goals and let me know"
+      ],
+      "responses": [
+        "Our goal is to develop a platform that empowers individuals to form meaningful connections and find emotional relief.- Himanshu rajpurohit ( MD & CEO )"
+      ]
+    },
+    {
+      "tag": "resources",
+      "patterns": [
+        "What kind of help do you provide?",
+        "What are the resources do you have?",
+        "Is there any information available for me?"
+      ],
+      "responses": [
+        "The resources we provide for you by strangify for you to grow. \n1)Venting out : A safe space to express your emotions and experiences without fear of judgement. \n2)Psychometric Tests: A scientifically-designed tool to gain insight into your personality, strengths, and areas for growth.\n3)Consulting: Guidance and support from experienced professionals to help you navigate life challenges. \n4)Motivational sessions:  Inspirational talks and workshops to help you stay motivated and focused on your goals. \n5)Counselling: Personalized and confidential one-on-one sessions with expert counsellors. \n6)Meditation sessions: Guided meditation sessions to help you relax, reduce stress, and improve your mental wellbeing. \nVisit https://www.strangify.com/ to know more"
+      ]
+    },
+    {
+      "tag": "self-care",
+      "patterns": [
+        "I feel burnt out and overwhelmed.",
+        "What are some self-care activities I can try?",
+        "I neglect my own needs and focus on others.",
+        "How do I prioritize self-care?",
+        "I don't know how to relax and take time for myself.",
+        "What are some simple self-care practices?"
+      ],
+      "responses": [
+        "Self-care is essential for your well-being. Start by identifying activities that bring you joy and relaxation. It could be as simple as taking a walk in nature, reading a book, or practicing a hobby you enjoy.",
+        "Remember that taking care of yourself is not selfish. Prioritizing self-care allows you to be more present and available for others. Find activities that rejuvenate and recharge you.",
+        "Self-care looks different for everyone. Experiment with various practices and find what works best for you. It's important to make self-care a regular part of your routine."
+      ]
+    },
+    {
+      "tag": "therapy",
+      "patterns": [
+        "Should I consider therapy?",
+        "What are the benefits of therapy?",
+        "I'm hesitant about starting therapy.",
+        "How do I find a suitable therapist?",
+        "Is therapy effective for mental health issues?",
+        "What can I expect from therapy sessions?"
+      ],
+      "responses": [
+        "Therapy can be a valuable tool for improving mental health. It provides a safe and supportive space to explore your thoughts, emotions, and challenges. A therapist can help you develop coping strategies and work towards your goals.",
+        "Therapy offers various benefits, such as gaining insight into yourself, developing healthier coping mechanisms, and receiving professional guidance. It can also provide a non-judgmental environment to express your feelings.",
+        "Finding the right therapist is important. Consider factors such as their specialization, approach, and your comfort level. You can start by asking for recommendations, using online directories, or contacting mental health organizations.",
+        "Therapy can be effective for many mental health issues, but results vary depending on individual circumstances. It's important to be open and committed to the process. Remember that therapy is a collaborative journey.",
+        "In therapy sessions, you can expect to have meaningful conversations with your therapist, set goals, and explore various techniques and strategies to support your mental health. It's a confidential and non-judgmental space."
+      ]
+    },
+    {
+      "tag": "medication",
+      "patterns": [
+        "Should I consider medication for my mental health?",
+        "What are the common medications used for mental health conditions?",
+        "I'm worried about the side effects of medication.",
+        "How do I know if medication is right for me?",
+        "Can I manage my mental health without medication?",
+        "What role does medication play in treatment?"
+      ],
+      "responses": [
+"Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing.",
+        "Like any medication, mental health medications can have side effects. It's important to discuss your concerns and potential risks with your healthcare provider. They can guide you through the benefits and risks of specific medications.",
+        "Determining whether medication is right for you is a personal decision. It depends on factors such as the severity of your symptoms, previous treatment outcomes, and your overall well-being. A healthcare professional can help you make an informed choice.",
+        "While medication can be beneficial, it's not the only treatment option for mental health conditions. Therapy, lifestyle changes, and self-care practices can also play a significant role in managing your mental well-being. It's important to discuss your options with a healthcare professional."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need support but don't know where to turn.",
+        "Are there support groups for mental health?",
+        "How can I seek support from my loved ones?",
+        "I feel like nobody understands what I'm going through.",
+        "What online resources are available for mental health support?",
+        "Can you recommend any helpline numbers for immediate support?"
+      ],
+      "responses": [
+        "When seeking support, consider reaching out to trusted friends, family members, or support groups. They can provide a listening ear and empathy. You can also explore online communities and forums dedicated to mental health support.",
+        "Support groups can be beneficial for connecting with others who are facing similar challenges. They provide a space for sharing experiences, receiving validation, and learning from one another.",
+        "Communicating your needs to your loved ones is important. Let them know how they can support you and what you're going through. Sometimes, they may not fully understand, but open and honest communication can help bridge the gap.",
+        "Online resources for mental health support include reputable websites, blogs, and forums. Organizations like the National Alliance on Mental Illness (NAMI) and Mental Health America provide a wealth of information and resources.",
+        "If you're in need of immediate support, helpline numbers such as the National Suicide Prevention Lifeline (1-800-273-TALK) or crisis text lines like Crisis Text Line (text 'HELP' to 741741) can provide assistance. Remember, you don't have to face your challenges alone."
+      ]
+    },
+    {
+      "tag": "negative_helplessness",
+      "patterns": [
+        "I feel so helpless",
+        "There's nothing I can do",
+        "I'm powerless in this situation"
+      ],
+      "responses": [
+        "It's understandable to feel helpless, but let's focus on finding solutions within your control. Small steps towards change can make a significant difference.",
+        "Remember that seeking support is a sign of strength. Reach out to trusted individuals or professionals who can assist you in regaining a sense of empowerment.",
+        "Sometimes it can be helpful to reframe situations and identify areas where you do have control. Let's explore those aspects and work on building your sense of agency."
+      ]
+    },
+    {
+      "tag": "negative_worry",
+      "patterns": [
+        "I can't stop worrying",
+        "I'm overwhelmed with worry",
+        "I'm constantly anxious about everything"
+      ],
+      "responses": [
+        "Worrying is a natural response, but excessive worry can be draining. Let's identify specific concerns and develop strategies to address them.",
+        "Try to focus on the present moment rather than getting caught up in future worries. Engaging in mindfulness exercises or journaling can help alleviate your anxiety.",
+        "Consider scheduling dedicated worry time each day, allowing yourself to focus on your concerns during that specific period. Outside of that time, try to redirect your thoughts to more positive or productive areas."
+      ]
+    },
+    {
+      "tag": "negative_doubt",
+      "patterns": [
+        "I doubt everything",
+        "I can't trust my own judgment",
+        "I'm unsure about everything"
+      ],
+      "responses": [
+        "Doubt can be challenging, but remember that seeking additional information or perspectives can help clarify your thoughts. Let's explore different angles to gain more clarity.",
+        "Consider writing down the reasons behind your doubts and analyzing them objectively. This can help you identify any patterns or underlying factors contributing to your uncertainty.",
+        "If doubt continues to persist and affect your decision-making, consider discussing your concerns with a trusted friend, mentor, or professional for guidance and support."
+      ]
+    },
+    {
+      "tag": "negative_envy",
+      "patterns": [
+        "I feel envious of others",
+        "Why can't I have what they have?",
+        "I'm consumed by jealousy"
+      ],
+      "responses": [
+        "Envy is a common emotion, but it's important to remember that everyone's journey is unique. Focus on your own strengths and achievements.",
+        "Rather than dwelling on what others have, redirect your energy towards setting and working towards your own goals. Embrace a mindset of growth and self-improvement.",
+        "Consider practicing gratitude to shift your focus towards what you do have in your life. Celebrate the accomplishments of others as inspiration and motivation rather than envy."
+      ]
+    },
+    {
+      "tag": "negative_frustration",
+      "patterns": [
+        "I'm so frustrated",
+        "Nothing seems to work",
+        "I can't handle this frustration anymore"
+      ],
+      "responses": [
+        "Frustration can be overwhelming, but let's break down the challenges into smaller, manageable tasks. Celebrate small wins along the way to boost your motivation.",
+        "Consider approaching the situation from a different perspective or seeking advice from others who have faced similar challenges. Sometimes fresh insights can help overcome frustration.",
+        "Take breaks when needed and engage in activities that help you relax and recharge. It's important to address your frustration while also prioritizing self-care."
+      ]
+    },
+    {
+      "tag": "negative_guilt",
+      "patterns": [
+        "I feel so guilty",
+        "I can't forgive myself",
+        "I'm burdened by guilt"
+      ],
+      "responses": [
+        "Guilt is a complex emotion, but it's important to acknowledge any mistakes or regrets and take steps towards making amends or learning from them.",
+        "Try to practice self-compassion and forgiveness. Remember that everyone makes mistakes, and growth comes from recognizing and taking responsibility for them.",
+        "Consider discussing your feelings of guilt with a trusted friend or therapist who can provide a non-judgmental perspective and help you navigate through these emotions."
+      ]
+    },
+    {
+      "tag": "negative_shame",
+      "patterns": [
+        "I feel so ashamed",
+        "I can't face anyone due to shame",
+        "I'm overwhelmed by shame"
+      ],
+      "responses": [
+        "Shame can be a deeply painful emotion, but remember that everyone has moments they're not proud of. It's important to focus on personal growth and self-acceptance.",
+        "Practice self-compassion and remind yourself that you deserve forgiveness and understanding."
+      ]
+    },
+    {
+      "tag": "negative_passive_boredom",
+      "patterns": [
+        "I'm so bored",
+        "There's nothing interesting to do",
+        "I feel completely unstimulated"
+      ],
+      "responses": [
+        "Boredom can be challenging, but it's an opportunity to explore new activities or hobbies. Let's brainstorm ideas that might bring you joy and engage your interests.",
+        "Consider stepping out of your comfort zone and trying something different. Exploring new experiences can help alleviate boredom and provide a fresh perspective.",
+        "Engaging in creative outlets or pursuing personal projects can be fulfilling and combat boredom. Let's discover activities that align with your interests and passions."
+      ]
+    },
+    {
+      "tag": "negative_passive_despair",
+      "patterns": [
+        "I feel hopeless",
+        "I'm in a state of despair",
+        "I can't see a way out"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling hopeless. Remember that even in the darkest moments, there is always hope. Reach out for support from loved ones or professionals.",
+        "It's important to focus on self-care during times of despair. Engage in activities that bring you comfort, such as spending time in nature or practicing mindfulness.",
+        "Consider speaking with a therapist or counselor who can provide guidance and assist you in navigating through feelings of despair."
+      ]
+    },
+    {
+      "tag": "negative_passive_disappointment",
+      "patterns": [
+        "I'm so disappointed",
+        "I had high hopes, but it didn't work out",
+        "I feel let down"
+      ],
+      "responses": [
+        "Disappointment is a natural emotion, but it's important to remember that setbacks can lead to growth and new opportunities. Let's explore ways to bounce back.",
+        "Allow yourself to acknowledge and process your disappointment. It's okay to feel this way. Focus on lessons learned and reassess your goals moving forward.",
+        "Surround yourself with supportive people who can provide encouragement during times of disappointment. Together, we can work on developing a plan to move forward."
+      ]
+    },
+    {
+      "tag": "negative_passive_hurt",
+      "patterns": [
+        "I feel so hurt",
+        "I'm emotionally wounded",
+        "I can't bear this pain"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling hurt. It's important to give yourself time to heal and seek support from those who care about you.",
+        "Acknowledge your feelings of hurt and allow yourself to process them. Engaging in self-care activities and expressing your emotions can aid in the healing process.",
+        "Consider speaking with a therapist or counselor who can provide a safe space for you to explore your emotions and guide you towards healing and recovery."
+      ]
+    },
+    {
+      "tag": "negative_passive_sadness",
+      "patterns": [
+        "I am not well.",
+        "I am not feeling well.",
+        "I am not feeling good",
+        "I feel so sad",
+        "I'm overwhelmed by sadness",
+        "I can't stop crying"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling sad. Remember that it's okay to experience sadness, and reaching out for support can be beneficial.",
+        "Take some time to engage in self-care activities that promote emotional well-being, such as listening to calming music or engaging in gentle exercise.",
+        "Consider sharing your feelings with a trusted friend or family member who can provide comfort and support. If needed, seeking professional help is also an option."
+      ]
+    },
+    {
+      "tag": "negative_passive_agitation",
+      "patterns": [
+        "I'm so agitated",
+        "I can't calm down",
+        "Everything is making me restless"
+      ],
+      "responses": [
+        "Agitation can be distressing, but let's explore calming techniques such as deep breathing exercises or progressive muscle relaxation to help you find relief.",
+        "Engaging in activities that promote relaxation and mindfulness, such as yoga or meditation, might assist in reducing agitation and bringing about a sense of calm.",
+        "Consider evaluating your environment for any potential triggers of agitation and make adjustments to create a more soothing and peaceful space."
+      ]
+    },
+    {
+      "tag": "negative_passive_stress",
+      "patterns": [
+        "I'm so stressed out",
+        "I can't handle this stress",
+        "I feel overwhelmed by stress"
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling stressed. Let's work on developing coping mechanisms such as time management, prioritization, and relaxation techniques.",
+        "Consider incorporating stress-reducing activities into your daily routine, such as exercise, meditation, or engaging in hobbies that bring you joy.",
+        "Seeking support from friends, family, or a therapist can also be helpful in managing stress. Remember, it's important to prioritize self-care during stressful times."
+      ]
+    },
+    {
+      "tag": "negative_passive_shock",
+      "patterns": [
+        "I'm in shock",
+        "I can't believe this happened",
+        "I'm stunned"
+      ],
+      "responses": [
+        "Experiencing shock can be overwhelming. Take deep breaths and allow yourself time to process the situation at your own pace.",
+        "Reach out to trusted individuals who can provide support during this time. It's important to have someone to lean on when processing unexpected events."]
+    },
+    {
+      "tag": "negative_passive_tension",
+      "patterns": [
+        "I feel so tense",
+        "I can't relax",
+        "I'm constantly on edge"
+      ],
+      "responses": [
+        "Tension can be physically and mentally draining, but let's explore relaxation techniques such as deep breathing exercises and progressive muscle relaxation.",
+        "Consider incorporating stress-reducing activities into your routine, such as yoga or engaging in activities that promote mindfulness and calmness.",
+        "Creating a soothing environment with dim lighting, soft music, and comfortable surroundings can help alleviate tension. Remember to prioritize self-care and take breaks when needed."
+      ]
+    },
+    {
+      "tag": "negative_not_in_control",
+      "patterns": [
+        "I feel anxious all the time",
+        "I'm overwhelmed with anxiety",
+        "I can't control my fears"
+      ],
+      "responses": [
+        "Anxiety can be challenging to deal with, but remember that there are coping strategies available. Let's explore relaxation techniques that may help you manage your anxiety.",
+        "Take some deep breaths and try to focus on the present moment. Engaging in activities like mindfulness or meditation can help calm your anxious thoughts."
+      ]
+    },
+    {
+      "tag": "negative_embarrassment",
+      "patterns": [
+        "I'm so embarrassed",
+        "I can't face anyone after this",
+        "I feel humiliated"
+      ],
+      "responses": [
+        "Embarrassment is a common feeling, and it's important to remember that everyone makes mistakes. Give yourself some compassion and try to learn from the experience.",
+        "It can be helpful to remind yourself that embarrassing moments are usually temporary. Focus on your strengths and positive qualities to build your confidence.",
+        "Consider discussing your feelings of embarrassment with someone you trust. Sharing your experience and gaining their perspective might help alleviate the embarrassment."
+      ]
+    },
+    {
+      "tag": "negative_fear",
+      "patterns": [
+        "I'm terrified",
+        "I'm so scared",
+        "I can't handle this fear"
+      ],
+      "responses": [
+        "Fear can be overwhelming, but try to remember that you have the strength to face your fears. Let's work together to develop strategies for managing and overcoming them.",
+        "It's important to take small steps to confront your fears gradually. Start by identifying one fear at a time and exploring ways to approach it in a safe and controlled manner.",
+        "If fear is significantly impacting your daily life, consider seeking support from a professional who specializes in anxiety disorders or phobias."
+      ]
+    },
+    {
+      "tag": "negative_forceful",
+      "patterns": [
+        "I can't take it anymore",
+        "I want to scream",
+        "I hate everything",
+        "Just leave me alone",
+        "I don't care anymore"
+      ],
+      "responses": [
+        "I understand that you're feeling overwhelmed, but try to take a deep breath and take a moment to calm down.",
+        "It's okay to feel angry, but let's try to find healthy ways to manage and express that anger.",
+        "I'm sorry to hear that you're feeling this way. Remember that you're not alone, and we can work together to find some solutions."
+      ]
+    },
+    {
+      "tag": "negative_anger",
+      "patterns": [
+        "I'm so angry right now",
+        "This is making me furious",
+        "I can't control my anger"
+      ],
+      "responses": [
+        "I can understand why you feel angry, but it's important to find ways to channel that anger constructively. Let's explore some coping strategies.",
+        "Take a moment to breathe deeply and count to ten. It may help to step back from the situation and approach it with a calmer mindset.",
+        "Anger can be a challenging emotion to deal with. Remember to prioritize your well-being and consider seeking support from a professional."
+      ]
+    },
+    {
+      "tag": "negative_annoyance",
+      "patterns": [
+        "This is so annoying",
+        "I'm tired of dealing with this",
+        "Can't people just leave me alone?"
+      ],
+      "responses": [
+        "I can understand why you feel annoyed. Is there anything specific that's been bothering you?",
+        "Sometimes things can be frustrating, but it's important to address the underlying issues. How can I assist you in finding a resolution?",
+        "I'm here to listen and support you. Let's talk about what's been bothering you and find some ways to alleviate your annoyance."
+      ]
+    },
+    {
+      "tag": "Positive and lively",
+      "patterns": [
+        "I feel so alive!",
+        "Everything is going great!",
+        "Life is full of possibilities!",
+        "I'm bursting with energy!",
+        "I'm in a fantastic mood!"
+      ],
+      "responses": [
+        "That's wonderful to hear! Keep up the positive vibes!",
+        "It's great to see you so lively. Enjoy your day!",
+        "Your positive energy is contagious! Spread the joy around!",
+        "You radiate positivity! Keep shining bright!",
+        "Embrace the liveliness and make the most of it!"
+      ]
+    },
+    {
+      "tag": "Amusement",
+      "patterns": [
+        "That joke was hilarious!",
+        "I can't stop laughing!",
+        "This comedy show is so entertaining!",
+        "I'm finding everything amusing today!"
+      ],
+      "responses": [
+        "Laughter is the best medicine! Enjoy the moment.",
+        "Glad to see you amused! Laughter adds joy to life.",
+        "Keep the laughter going! It's good for the soul.",
+        "A good sense of humor makes life more enjoyable!",
+        "Cherish the moments of amusement. They make memories."
+      ]
+    },
+    {
+      "tag": "Delight",
+      "patterns": [
+        "I'm absolutely delighted!",
+        "This news brings me so much delight!",
+        "The surprise party was delightful!",
+        "I'm delighted to meet you!"
+      ],
+      "responses": [
+        "Delight is contagious! Keep spreading the happiness.",
+        "Soak in the feeling of delight. It's a precious emotion.",
+        "Enjoy every delightful moment that comes your way!",
+        "Delight brightens up the world. Keep shining!",
+        "Your delight is a reflection of the joy within you."
+      ]
+    },
+    {
+      "tag": "Elation",
+      "patterns": [
+        "I'm elated beyond words!",
+        "This achievement has me feeling elated!",
+        "The concert was absolutely elating!",
+        "I've never felt this elated before!"
+      ],
+      "responses": [
+        "Bask in the elation! You deserve every moment of it.",
+        "Elation is a beautiful emotion. Enjoy the high!",
+        "Your elation is infectious! Keep celebrating.",
+        "Let the elation fill your heart and inspire others.",
+        "Embrace the elation and let it fuel your passion."
+      ]
+    },
+    {
+      "tag": "Excitement",
+      "patterns": [
+        "I'm so excited about the upcoming trip!",
+        "This new project has me feeling excited!",
+        "The suspense is killing me, but it's exciting!",
+        "I can't contain my excitement any longer!"
+      ],
+      "responses": [
+        "Excitement makes life more vibrant. Enjoy the thrill!",
+        "Your excitement is palpable! Let it fuel your enthusiasm.",
+        "Embrace the feeling of excitement and make it your ally.",
+        "The world becomes more exciting with your positive energy.",
+        "Your excitement is contagious! Spread the joy around."
+      ]
+    },
+    {
+      "tag": "Happiness",
+      "patterns": [
+        "I'm truly happy right now!",
+        "This moment fills me with happiness.",
+        "Seeing loved ones happy makes me happy too.",
+        "I've never felt such pure happiness before!"
+      ],
+      "responses": [
+        "Happiness is a beautiful emotion. Cherish every moment.",
+        "Your happiness radiates warmth. Keep the positivity alive.",
+        "Embrace the happiness within you and let it shine bright.",
+        "Your happiness is contagious! Spread it like confetti.",
+        "May your happiness be the foundation of a joyful life."
+      ]
+    },
+    {
+      "tag": "Joy",
+      "patterns": [
+        "I'm overflowing with joy!",
+        "This news brings me so much joy!",
+        "The sight of children playing fills me with joy.",
+        "I'm surrounded by joyous moments!"
+      ],
+      "responses": [
+        "Joy is a precious gift. Celebrate it with open arms.",
+        "Your joy is contagious! Let it inspire others.",
+        "Embrace the joy within you and let it guide your path.",
+        "Your joy brightens the world. Keep spreading the light.",
+        "May your life be filled with an abundance of joy."
+      ]
+    },
+    {
+      "tag": "Pleasure",
+      "patterns": [
+        "This food is an absolute pleasure to taste!",
+        "I derive immense pleasure from painting.",
+        "Spending time with loved ones gives me immense pleasure.",
+        "I'm experiencing pure pleasure in this moment!"
+      ],
+      "responses": [
+        "Savor the pleasure! Life's little joys make it worthwhile.",
+        "Your pleasure is a reflection of your appreciation for life.",
+        "Embrace the pleasure and let it enrich your experiences.",
+        "Your pleasure is contagious! Share it with others.",
+        "May your journey be filled with endless moments of pleasure."
+      ]
+    },
+    {
+      "tag": "Caring",
+      "patterns": [
+        "I care deeply for my family and friends.",
+        "Helping others brings me a sense of fulfillment.",
+        "Being there for someone in need is important to me.",
+        "Caring for others is a core value of mine."
+      ],
+      "responses": [
+        "Your caring nature makes a positive impact on the world.",
+        "Caring is a beautiful virtue. Keep spreading compassion.",
+        "Embrace the power of caring and make a difference.",
+        "Your caring heart is a beacon of light for others.",
+        "May your kindness and care touch countless lives."
+      ]
+    },
+    {
+      "tag": "Affection",
+      "patterns": [
+        "I feel so much affection towards my pets.",
+        "Being in the arms of my loved one fills me with affection.",
+        "Expressing affection brings me immense joy.",
+        "I'm surrounded by affectionate people."
+      ],
+      "responses": [
+        "Your affectionate nature is a treasure. Cherish it.",
+        "Embrace the power of affection and let it nurture relationships.",
+        "Affection is a language of the heart. Speak it fluently.",
+        "Your affection warms the souls of those around you.",
+        "May your life be filled with boundless love and affection."
+      ]
+    },
+    {
+      "tag": "Feeling Good",
+      "patterns": [
+        "I'm feeling good today.",
+        "I'm in a positive state of mind.",
+        "I have a sense of well-being.",
+        "I'm experiencing happiness and contentment."
+      ],
+      "responses": [
+        "That's wonderful to hear! It's great to be in a positive state of mind. Enjoy the feeling and make the most of your day.",
+        "I'm glad to know that you're feeling good. Remember to appreciate and savor this positive state of mind.",
+        "Feeling good is a great accomplishment. Keep nurturing your well-being and spreading positivity around you.",
+        "It's fantastic that you're experiencing happiness and contentment. Embrace these positive emotions and let them guide you.",
+        "Feeling good is a precious gift. Take the time to celebrate and appreciate this positive state of mind."
+      ]
+    },
+    {
+      "tag": "Feeling Weakness",
+      "patterns": [
+        "feeling weak",
+        "I have no energy",
+        "I feel so weak today.",
+        "My energy levels are very low.",
+        "I lack strength and vitality.",
+        "I'm struggling with physical weakness."
+      ],
+      "responses": [
+        "I'm sorry to hear that you're feeling weak. It's important to take care of yourself and prioritize rest and self-care.",
+        "Physical weakness can be challenging. Remember to listen to your body and give yourself the time and space you need to recover.",
+        "Feeling weak can be tough, but it's a temporary state. Make sure to nourish your body, get enough rest, and seek support if needed.",
+        "I understand that feeling weak can be frustrating. Remember to be patient with yourself and take things at your own pace."
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": ["I feel so sad today.", "I'm really down and sad.", "Everything seems so gloomy."],
+      "responses": ["I'm sorry to hear that you're feeling sad. Is there something specific that's been bothering you?", "It's tough to feel sad. Take your time to process your emotions and remember that you're not alone." ]
+    },
+    {
+      "tag": "depressed",
+      "patterns": ["I've been feeling depressed lately.", "I can't shake off this feeling of depression.", "I'm trapped in this deep depression."],
+      "responses": ["I'm here to support you. Depression can be overwhelming, but there are ways to manage it. Have you considered reaching out to a professional for help?", "Remember, depression is treatable, and there are people who care about you. Don't hesitate to seek support."]
+    },
+    {
+      "tag": "lonely",
+      "patterns": ["I feel so lonely all the time.", "I don't have anyone to talk to.", "I'm surrounded by people, but I still feel lonely."],
+      "responses": ["Loneliness can be tough, but reaching out and connecting with others can make a difference. Have you tried joining any social groups or engaging in activities you enjoy?", "Feeling lonely is not uncommon, and it's okay to reach out for companionship. Is there something specific you would like to talk about?"]
+    },
+    {
+      "tag": "anxious",
+      "patterns": ["I'm constantly anxious and worried.", "I can't stop feeling anxious.", "My anxiety is overwhelming me."],
+      "responses": ["I understand how distressing anxiety can be. Have you tried any relaxation techniques, like deep breathing or mindfulness, to help calm your mind?", "Anxiety can be challenging, but remember that you have the strength to overcome it. If it becomes too much, consider seeking support from a mental health professional."]
+    },
+    {
+      "tag": "hopeless",
+      "patterns": ["I feel so hopeless about everything.", "Nothing seems to work out, and I'm losing hope.", "I can't see any light at the end of the tunnel."],
+      "responses": ["I'm sorry to hear that you're feeling hopeless. Remember, tough times don't last forever, and there's always hope for a brighter future. What are some things that usually bring you joy or give you a sense of purpose?", "Feeling hopeless can be challenging, but it's important to keep looking for positive aspects in your life. Is there anything specific you'd like to talk about?"]
+    },
+    {
+      "tag": "frustrated",
+      "patterns": ["I'm so frustrated with everything.", "I can't handle this frustration anymore.", "Everything is going wrong, and it's driving me crazy."],
+      "responses": ["Frustration can be overwhelming, but remember that setbacks are a part of life. Is there something specific that's been frustrating you? Sharing might help relieve some of the stress.", "I'm sorry to hear that you're feeling frustrated. Sometimes taking a break, doing something you enjoy, or seeking a fresh perspective can help."]
+    },
+    {
+      "tag": "angry",
+      "patterns": ["I'm so angry right now.", "I can't control my anger.", "Everything is making me so angry."],
+      "responses": ["Anger can be a challenging emotion to manage. It's important to find healthy outlets for it, such as talking to someone you trust or engaging in physical activities. Is there something specific that's been triggering your anger?", "I understand that you're feeling angry, but remember that expressing your emotions in a respectful way can be more effective in resolving conflicts."]
+    },
+    {
+      "tag": "stressed",
+      "patterns": ["I'm so stressed out.", "I feel overwhelmed with stress.", "This constant stress is taking a toll on me."],
+      "responses": ["Stress can be exhausting, but it's important to prioritize self-care and find healthy ways to manage it. Have you tried any relaxation techniques, like meditation or exercise?", "I'm sorry to hear that you're feeling stressed. Remember, taking breaks, setting boundaries, and seeking support can make a difference."]
+    },
+    {
+      "tag": "disappointed",
+      "patterns": ["I'm really disappointed in myself.", "I feel like I've let everyone down.", "This constant disappointment is unbearable."],
+      "responses": ["I'm sorry to hear that you're feeling disappointed. Remember that everyone makes mistakes, and it's an opportunity for growth. Is there something specific that you're disappointed about?", "Feeling disappointed is tough, but try to be kind to yourself. Remember your past achievements and the lessons you've learned from setbacks."]
+    },
+    {
+      "tag": "grief",
+      "patterns": ["I'm grieving the loss of a loved one.", "This grief feels overwhelming.", "I can't seem to move past this stage of grief."],
+      "responses": ["I'm truly sorry for your loss. Grieving is a deeply personal process, and it takes time. If you feel comfortable, talking about your loved one and sharing memories might help you heal.", "Grief can be an intense journey. Remember to lean on your support system and take care of yourself during this challenging time."]
+    },
+    {
+      "tag": "rejected",
+      "patterns": ["I feel so rejected and unwanted.", "Being rejected hurts so much.", "I can't handle this feeling of rejection."],
+      "responses": ["I'm sorry to hear that you're feeling rejected. Remember that your worth isn't determined by others' opinions. Focus on self-acceptance and surround yourself with people who appreciate you for who you are.", "Feeling rejected can be painful, but try not to internalize it. You're deserving of love and acceptance. Is there something specific you'd like to discuss?"]
+    },
+    {
+      "tag": "guilty",
+      "patterns": ["I'm overwhelmed with guilt.", "I can't forgive myself for what I've done.", "This guilt is consuming me."],
+      "responses": ["Guilt can be a heavy burden to carry, but it's important to learn from mistakes and forgive yourself. Is there something specific that's been causing you guilt?", "Remember that everyone makes mistakes, and it's part of being human. Reflect on what you've learned from your actions and try to make amends if possible."]
+    },
+    {
+      "tag": "jealous",
+      "patterns": ["I can't help feeling jealous of others.", "This jealousy is eating me up inside.", "I'm consumed by envy and it's toxic."],
+      "responses": ["Feeling jealous can be challenging, but it's important to focus on your own journey and celebrate your unique qualities. Is there something specific that's been triggering your jealousy?", "Remember that everyone's path is different, and comparing yourself to others isn't productive. Embrace your own strengths and achievements."]
+    },
+    {
+      "tag": "embarrassed",
+      "patterns": ["I'm so embarrassed by what happened.", "This embarrassment is overwhelming.", "I can't shake off this feeling of shame."],
+      "responses": ["I'm sorry to hear that you're feeling embarrassed. Remember that everyone experiences moments of embarrassment, and it's a part of life. Try to be kind to yourself and focus on your positive attributes.", "Feeling embarrassed can be tough, but try not to dwell on it. People often remember how you handle a situation more than the situation itself."]
+    },
+    {
+      "tag": "overwhelmed",
+      "patterns": ["I'm feeling completely overwhelmed.", "This overwhelming feeling is suffocating me.", "I can't handle all the stress and responsibilities."],
+      "responses": ["I'm sorry to hear that you're feeling overwhelmed. Remember to prioritize self-care and break tasks into smaller, manageable steps. Is there something specific that's been causing you to feel this way?", "Feeling overwhelmed is common, but don't hesitate to ask for help or delegate tasks when possible. Taking small breaks and practicing self-compassion can make a difference."]
+    },
+    {
+      "tag": "insecure",
+      "patterns": ["I'm so insecure about myself.", "This insecurity is consuming me.", "I can't escape this feeling of inadequacy."],
+      "responses": ["Feeling insecure can be challenging, but try to focus on your strengths and accomplishments. Remember that self-worth comes from within. Is there something specific that's been triggering your insecurity?", "You are worthy and deserving of love and respect. Surround yourself with positive influences and practice self-affirmations."]
+    },
+    {
+      "tag": "disgusted",
+      "patterns": ["I feel so disgusted with myself.", "This feeling of disgust is overwhelming.", "I can't stand being in my own skin."],
+      "responses": ["I'm sorry to hear that you're feeling disgusted. Remember that self-love and self-acceptance are important. Focus on your positive qualities and try to practice self-compassion.", "Feeling disgusted can be difficult, but try not to be too hard on yourself. You are unique and deserving of love and acceptance."]
+    },
+    {
+      "tag": "worthless",
+      "patterns": ["I feel completely worthless.", "This feeling of worthlessness is suffocating.", "I can't see any value in myself."],
+      "responses": ["I'm sorry to hear that you're feeling worthless. Remember that your worth isn't defined by external factors. Focus on your strengths and achievements. Is there something specific that's been making you feel this way?", "Feeling worthless can be tough, but it's important to recognize your own value. Surround yourself with positive influences and engage in activities that boost your self-esteem."]
+    },
+    {
+      "tag": "resentful",
+      "patterns": ["I'm so resentful towards someone.", "This resentment is consuming me.", "I can't let go of this feeling of resentment."],
+      "responses": ["I'm sorry to hear that you're feeling resentful. Holding onto resentment can be toxic for your well-being. Have you considered expressing your feelings to the person involved or seeking professional guidance?", "Remember that forgiveness doesn't mean condoning the behavior. It's about freeing yourself from the burden of resentment and moving forward."]
+    },
+    {
+      "tag": "disappointed",
+      "patterns": ["I'm really disappointed in myself.", "I feel like I've let everyone down.", "This constant disappointment is unbearable."],
+      "responses": ["I'm sorry to hear that you're feeling disappointed. Remember that everyone makes mistakes, and it's an opportunity for growth. Is there something specific that you're disappointed about?", "Feeling disappointed is tough, but try to be kind to yourself. Remember your past achievements and the lessons you've learned from setbacks."]
+    },
+    {
+      "tag": "inferior",
+      "patterns": ["I always feel inferior to others.", "This feeling of inferiority is suffocating me.", "I can't escape this sense of inadequacy."],
+      "responses": ["Feeling inferior can be challenging, but remember that each person has their unique strengths and qualities. Focus on your own journey and celebrate your accomplishments. Is there something specific that's been triggering your feelings of inferiority?", "You are deserving of love, respect, and success. Don't compare yourself to others, but rather appreciate your own growth and progress."]
+
+},
+{"tag" : "Anxiety disorders",
+"patterns": [
+"I feel really anxious all the time.",
+"I'm constantly worried about everything.",
+"How can I manage my anxiety?",
+"What are the symptoms of anxiety disorders?"
+],
+"responses": [
+"Anxiety can be overwhelming, but there are strategies to manage it. Have you tried deep breathing exercises or mindfulness meditation?",
+"It's important to understand that anxiety disorders are treatable. Consider seeking therapy or counseling to learn effective coping mechanisms.",
+"Engaging in regular physical exercise and maintaining a healthy lifestyle can significantly reduce anxiety symptoms.",
+"Cognitive-behavioral therapy (CBT) is often recommended for anxiety disorders. It can help you identify and challenge negative thought patterns."
+]
+},
+{"tag" : "Major depressive disorder",
+"patterns": [
+"I feel sad and hopeless all the time.",
+"Nothing brings me joy anymore.",
+"How can I cope with my depression?",
+"What are the common symptoms of major depressive disorder?"
+],
+"responses": [
+"Depression is a serious condition, but remember that there is help available.Engaging in activities you used to enjoy, even if you don't feel motivated, can help improve your mood over time.",
+"Practicing self-care is crucial when dealing with depression. Make sure you're getting enough sleep, eating well, and staying socially connected."
+]
+},
+{"tag" : "Bipolar disorder",
+"patterns": [
+"I experience extreme mood swings.",
+"Sometimes I feel excessively energetic, and other times I feel extremely low.",
+"How can I manage my bipolar disorder?",
+"What are the treatment options for bipolar disorder?"
+],
+"responses": [
+"Managing bipolar disorder requires a comprehensive approach. Regular therapy sessions and medication can help stabilize your moods.",
+"Creating a daily routine and sticking to it can provide a sense of stability and control.",
+"Building a support network of understanding friends and family members can make a significant difference in managing bipolar disorder.",
+"Consider tracking your moods and activities to identify patterns and triggers. This can help you and your healthcare provider develop effective strategies."
+]
+},
+{"tag" : "Schizophrenia",
+"patterns": [
+"I'm experiencing hallucinations and delusions.",
+"I feel disconnected from reality at times.",
+"What are the treatment options for schizophrenia?",
+"How can I cope with the symptoms of schizophrenia?"
+],
+"responses": [
+"Schizophrenia is a complex disorder, and treatment often involves a combination of medication, therapy, and support services.",
+"It's important to stay consistent with medication prescribed by your psychiatrist to manage symptoms and prevent relapse.",
+"Joining support groups or engaging in therapy can provide valuable insight and coping strategies for living with schizophrenia.",
+"Developing a relapse prevention plan with your healthcare team can help you identify early warning signs and take action promptly."
+]
+},
+{"tag" : "Obsessive-compulsive disorder (OCD)",
+"patterns": [
+"I have intrusive thoughts that won't go away.",
+"I find myself engaging in repetitive behaviors to alleviate anxiety.",
+"How can I manage my OCD?",
+"Are there any effective therapies for OCD?"
+],
+"responses": [
+"Cognitive-behavioral therapy (CBT) and exposure and response prevention (ERP) are often used to treat OCD and can help you regain control over your thoughts and behaviors.",
+"Identify and challenge the irrational thoughts that fuel your obsessions. Practice replacing them with more rational and realistic alternatives.",
+"Gradually exposing yourself to feared situations or objects without engaging in compulsions can help reduce anxiety and desensitize you to triggers.",
+"Consider creating a structured daily schedule to minimize uncertainty and provide a sense of control, which can be helpful for managing OCD."
+]
+},
+{"tag" : "Post-traumatic stress disorder (PTSD)",
+"patterns": [
+"I experienced a traumatic event and can't stop thinking about it.",
+"I have nightmares and flashbacks related to my trauma.",
+"How can I cope with my PTSD symptoms?",
+"Are there any effective treatments for PTSD?"
+],
+"responses": [
+"Seeking therapy, particularly trauma-focused therapies like cognitive processing therapy (CPT) or eye movement desensitization and reprocessing (EMDR), can significantly help with PTSD symptoms.",
+"Creating a safe and supportive environment for yourself is crucial. Establish routines, practice self-care, and surround yourself with understanding people.",
+"Consider exploring relaxation techniques like deep breathing exercises, meditation, or yoga to help manage anxiety and stress related to PTSD.",
+"Journaling about your thoughts and emotions can be a helpful outlet for processing trauma and promoting emotional healing."
+]
+},
+{"tag" : "Attention deficit hyperactivity disorder (ADHD)",
+"patterns": [
+"I have difficulty staying focused and organized.",
+"I often feel restless and impulsively jump from one task to another.",
+"How can I manage my ADHD symptoms?",
+"Are there any effective treatments for ADHD?"
+],
+"responses": [
+"Working with a mental health professional experienced in ADHD can help you develop strategies for managing your symptoms.",
+"Creating a structured environment, using visual reminders, and breaking tasks into smaller, manageable steps can improve focus and organization.",
+"Consider practicing mindfulness and meditation techniques to enhance self-awareness and increase attention control.",
+"In some cases, medication may be recommended to manage ADHD symptoms. Consult with a healthcare provider for a comprehensive evaluation."
+]
+},
+{"tag" : "Borderline personality disorder",
+"patterns": [
+"I have intense and unstable relationships.",
+"I struggle with emotional regulation and impulsive behaviors.",
+"How can I manage my borderline personality disorder?",
+"Are there any effective therapies for borderline personality disorder?"
+],
+"responses": [
+"Dialectical behavior therapy (DBT) is a commonly recommended treatment for borderline personality disorder. It focuses on improving emotional regulation and interpersonal skills.",
+"Developing a strong support system and attending support groups specific to borderline personality disorder can provide understanding and validation.",
+"Practicing self-care and engaging in activities that promote self-soothing can be beneficial when experiencing intense emotions.",
+"Learning and implementing healthy coping mechanisms, such as mindfulness exercises and relaxation techniques, can help manage distress and impulsive behaviors."
+]
+},
+{"tag" : "Eating disorders (anorexia, bulimia, binge-eating)",
+"patterns": [
+"I have an unhealthy relationship with food and my body.",
+"I engage in restrictive eating or purging behaviors.",
+"How can I overcome my eating disorder?",
+"What are the treatment options for eating disorders?"
+],
+"responses": [
+"Nutritional counseling can provide education and support for establishing a healthy relationship with food and implementing a balanced eating plan.",
+"Cognitive-behavioral therapy (CBT) and dialectical behavior therapy (DBT) have shown effectiveness in treating eating disorders and addressing underlying emotional issues.",
+"Building a strong support network, including friends, family, and support groups, can provide encouragement and guidance throughout the recovery process."
+]
+},
+{"tag" : "Generalized anxiety disorder (GAD)",
+"patterns": [
+"I worry excessively about various aspects of my life.",
+"I find it difficult to control my constant worrying.",
+"How can I manage my generalized anxiety disorder?",
+"What are some relaxation techniques for GAD?"
+],
+"responses": [
+"Practicing relaxation techniques such as deep breathing exercises, progressive muscle relaxation, or guided imagery can help alleviate anxiety symptoms.",
+"Engaging in regular physical exercise can reduce anxiety and promote overall well-being.",
+"Cognitive restructuring, a technique used in cognitive-behavioral therapy (CBT), can help identify and challenge irrational thoughts contributing to anxiety.",
+"Creating a worry journal to write down and analyze your worries can be helpful in gaining perspective and finding effective solutions."
+]
+},
+{"tag" : "Panic disorder",
+"patterns": [
+"I experience sudden and intense panic attacks.",
+"I feel a sense of impending doom and physical symptoms during panic attacks.",
+"How can I manage my panic disorder?",
+"What are some techniques to cope with panic attacks?"
+],
+"responses": [
+"During a panic attack, try deep breathing exercises to help regulate your breathing and reduce physical symptoms.",
+"Consider seeking therapy, such as cognitive-behavioral therapy (CBT), to learn techniques for managing and reducing panic attacks.",
+"Identifying and avoiding triggers, as well as creating a calm and safe environment, can help minimize the occurrence of panic attacks.",
+"Learning relaxation techniques like progressive muscle relaxation or mindfulness meditation can assist in reducing anxiety and preventing panic attacks."
+]
+},
+{"tag" : "Social anxiety disorder (social phobia)",
+"patterns": [
+"I feel extremely anxious in social situations.",
+"I fear being judged or embarrassed in front of others.",
+"How can I overcome my social anxiety?",
+"What are some strategies to manage social phobia?"
+],
+"responses": [
+"Gradual exposure to social situations can help desensitize you to anxiety triggers. Start with small, manageable steps and work your way up.",
+"Consider seeking therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, to address and manage social anxiety.",
+"Practice self-compassion and challenge negative self-talk that fuels social anxiety. Remind yourself that everyone makes mistakes and nobody is perfect.",
+"Learning and practicing relaxation techniques, such as deep breathing or visualization exercises, can help reduce anxiety in social situations."
+]
+},
+{"tag" : "Specific phobias",
+"patterns": [
+"I have an intense fear of specific objects or situations.",
+"I experience panic attacks when exposed to my specific phobia.",
+"How can I overcome my specific phobia?",
+"Are there any treatments for specific phobias?"
+],
+"responses": [
+"Exposure therapy, particularly systematic desensitization, is often used to treat specific phobias. It involves gradually and safely exposing yourself to the feared object or situation.",
+"Cognitive-behavioral therapy (CBT) can help you challenge irrational thoughts and beliefs associated with your specific phobia.",
+"Consider developing relaxation techniques, such as deep breathing or progressive muscle relaxation, to help manage anxiety when confronted with your specific phobia."
+]
+},
+{"tag" : "Adjustment disorder",
+"patterns": [
+"I'm struggling to cope with recent major life changes.",
+"I feel overwhelmed and find it difficult to adapt to new situations.",
+"How can I manage my adjustment disorder?",
+"What are some strategies for dealing with major life changes?"
+],
+"responses": [
+"Give yourself time to process and adjust to the changes. It's okay to feel overwhelmed initially.",
+"Seeking support from friends, family, or a therapist can provide a valuable outlet for expressing your feelings and receiving guidance.",
+"Creating a routine and setting small, achievable goals can help bring stability and structure during times of change.",
+"Practice self-care and engage in activities that bring you comfort and joy to help manage stress and promote emotional well-being."
+]
+},
+{"tag" : "Seasonal affective disorder (SAD)",
+"patterns": [
+"I experience symptoms of depression during certain seasons.",
+"My mood significantly declines in winter months.",
+"How can I manage my seasonal affective disorder?",
+"Are there any treatments specifically for SAD?"
+],
+"responses": [
+"Light therapy, using a lightbox that mimics natural sunlight, is a common treatment for seasonal affective disorder. Consult with a healthcare provider for recommendations.",
+"Maximize exposure to natural light by spending time outdoors during daylight hours, opening curtains, or sitting near windows.",
+"Engaging in regular exercise and maintaining a healthy diet can help regulate mood and energy levels.",
+"Consider seeking therapy, such as cognitive-behavioral therapy (CBT), to develop coping strategies specific to seasonal affective disorder."
+]
+},
+{"tag" : "Persistent depressive disorder (dysthymia)",
+"patterns": [
+"I experience long-term feelings of sadness and hopelessness.",
+"My depressive symptoms have lasted for years.",
+"How can I manage my persistent depressive disorder?",
+"Are there any treatments for dysthymia?"
+],
+"responses": [
+"Consult with a mental health professional who can assess your symptoms and develop an appropriate treatment plan for persistent depressive disorder.",
+"Therapy, such as cognitive-behavioral therapy (CBT) or psychodynamic therapy, can help address underlying issues and develop coping strategies.",
+"Medication, such as antidepressants, may be prescribed in combination with therapy to manage symptoms of persistent depressive disorder.",
+"Engaging in activities that bring you pleasure and maintaining social connections can provide support and improve mood in persistent depressive disorder."
+]
+},
+{"tag" : "Dissociative identity disorder (DID)",
+"patterns": [
+"I have different identities or personalities that emerge at different times.",
+"I experience memory gaps and loss of time.",
+"How can I manage my dissociative identity disorder?",
+"Are there any treatments for DID?"
+],
+"responses": [
+"Seeking therapy from a mental health professional experienced in treating dissociative identity disorder is crucial for managing and integrating identities.",
+"Developing a safety plan and establishing internal communication between identities can improve functioning and reduce distress.",
+"Grounding techniques, such as deep breathing exercises or using sensory stimuli, can help manage dissociative symptoms during episodes.",
+"Consider joining support groups specifically for individuals with dissociative identity disorder to share experiences and gain support from others."
+]
+},
+{"tag" : "Narcissistic personality disorder",
+"patterns": [
+"I have a constant need for admiration and lack empathy for others.",
+"I feel superior to others and have an exaggerated sense of self-importance.",
+"How can I manage my narcissistic personality disorder?",
+"Are there any treatments for NPD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or psychodynamic therapy, can help address underlying issues related to narcissistic personality disorder.",
+"Developing empathy through perspective-taking exercises and focusing on building healthy relationships can be beneficial in managing NPD.",
+"Recognizing and challenging narcissistic patterns of behavior and thought can help promote personal growth and positive change.",
+"Consider engaging in self-reflection and exploring the impact of your behavior on others to gain a better understanding of yourself and your relationships."
+]
+},
+{"tag" : "Antisocial personality disorder",
+"patterns": [
+"I have a disregard for the rights and feelings of others.",
+"I engage in impulsive and manipulative behaviors.",
+"How can I manage my antisocial personality disorder?",
+"Are there any treatments for ASPD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can help address problematic behaviors and develop healthier coping strategies.",
+"Building social skills and empathy through therapy can improve interpersonal relationships and reduce harmful behaviors.",
+"Seeking support from a therapist or support groups can provide guidance and accountability throughout the treatment process.",
+"Consider exploring anger management techniques and practicing impulse control to reduce the negative impact of antisocial behaviors."
+]
+},
+{"tag" : "Autism spectrum disorder (ASD)",
+"patterns": [
+"I experience challenges with social interaction and communication.",
+"I have repetitive behaviors and specific interests.",
+"How can I manage my autism spectrum disorder?",
+"Are there any therapies for ASD?"
+],
+"responses": [
+"Early intervention is crucial for individuals with autism spectrum disorder. Consider seeking specialized therapies and interventions for children and adults.",
+"Applied behavior analysis (ABA) and speech therapy are commonly used to address social and communication difficulties in individuals with ASD.",
+"Creating a structured and predictable environment can help individuals with ASD navigate daily life and reduce anxiety.",
+"Support groups and connecting with others who have ASD can provide understanding and a sense of community."
+]
+},
+{"tag" : "Intellectual disability",
+"patterns": [
+"I have limitations in intellectual functioning and adaptive behavior.",
+"I require support in daily activities due to my intellectual disability.",
+"How can I manage my intellectual disability?",
+"Are there any interventions or therapies for intellectual disability?"
+],
+"responses": [
+"Seeking support from specialists, such as educators or therapists, can provide strategies and accommodations tailored to your needs.",
+"Developing a structured routine and engaging in activities that promote skill development can enhance independence and quality of life.",
+"Consider accessing community resources and support networks specifically designed for individuals with intellectual disabilities.",
+"Working with a speech therapist or occupational therapist can help improve communication and develop essential life skills."
+]
+},
+{"tag" : "Oppositional defiant disorder (ODD)",
+"patterns": [
+"I often display hostile and defiant behavior.",
+"I frequently argue with authority figures and refuse to comply with rules.",
+"How can I manage my oppositional defiant disorder?",
+"What strategies can help with ODD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or parent-child interaction therapy (PCIT), can help address challenging behaviors and improve family dynamics.",
+"Developing effective communication and conflict resolution skills can help reduce conflicts and improve relationships.",
+"Encouraging and reinforcing positive behaviors through a reward system can be effective in managing oppositional defiant disorder.",
+"Creating a structured and predictable environment with clear expectations and consequences can help manage defiant behaviors."
+]
+},
+{"tag" : "Conduct disorder",
+"patterns": [
+"I engage in persistent aggressive and antisocial behaviors.",
+"I violate the rights of others and disregard rules.",
+"How can I manage my conduct disorder?",
+"Are there any treatments for conduct disorder?"
+],
+"responses": [
+"Seeking therapy, such as cognitive-behavioral therapy (CBT) or family therapy, can help address problematic behaviors and develop healthier coping mechanisms.",
+"Working with a mental health professional experienced in conduct disorder can help identify underlying issues and develop strategies for behavior management.",
+"Learning and practicing anger management techniques can help reduce aggressive behaviors and improve impulse control.",
+"Building a strong support network and accessing community resources can provide additional support and guidance in managing conduct disorder."
+]
+},
+{"tag" : "Psychotic disorders",
+"patterns": [
+"I experience hallucinations and delusions.",
+"I have difficulty distinguishing reality from my distorted perceptions.",
+"How can I manage my psychotic disorder?",
+"Are there any treatments or medications for psychotic disorders?"
+],
+"responses": [
+"Seeking immediate professional help is crucial for the management of psychotic disorders. Medications, such as antipsychotics, may be prescribed to reduce symptoms.",
+"Engaging in therapy, such as cognitive-behavioral therapy for psychosis (CBTp), can help develop coping strategies and challenge distorted thoughts.",
+"Building a strong support system of family, friends, and mental health professionals can provide stability and assistance during episodes.",
+"Practicing stress reduction techniques, such as mindfulness or relaxation exercises, can help manage symptoms and improve overall well-being."
+]
+},
+{"tag" : "Personality disorders",
+"patterns": [
+"I struggle with maladaptive patterns of thinking and behavior.",
+"My personality traits and behaviors cause difficulties in my personal and professional life.",
+"How can I manage my personality disorder?",
+"What treatments are available for personality disorders?"
+],
+"responses": [
+"Therapy, particularly dialectical behavior therapy (DBT) or schema-focused therapy, can be effective in managing and addressing maladaptive patterns of thinking and behavior.",
+"Developing self-awareness and understanding your triggers and coping mechanisms can be helpful in managing symptoms of personality disorders.",
+"Building healthy relationships and improving communication skills through therapy can lead to more fulfilling connections.",
+"Medication may be used to target specific symptoms or co-occurring conditions associated with personality disorders, but therapy is typically the primary treatment approach."
+]
+},
+{"tag" : "Traumatic brain injury (TBI)",
+"patterns": [
+"I have experienced a brain injury resulting in cognitive and functional difficulties.",
+"I struggle with memory loss, attention problems, and mood changes after a traumatic brain injury.",
+"How can I manage my traumatic brain injury?",
+"Are there any therapies or treatments for TBI?"
+],
+"responses": [
+"Working with a multidisciplinary team, including healthcare professionals and rehabilitation specialists, can help develop an individualized treatment plan.",
+"Cognitive rehabilitation therapy can assist in improving memory, attention, and problem-solving skills after a traumatic brain injury.",
+"Physical therapy and occupational therapy may be beneficial in addressing physical and functional challenges associated with TBI.",
+"Seeking support from support groups or counseling can provide emotional support and guidance throughout the recovery process."
+]
+},
+{"tag" : "Dissociative disorders",
+"patterns": [
+"I experience disruptions in my memory, identity, or consciousness.",
+"I have periods of feeling detached from myself or my surroundings.",
+"How can I manage my dissociative disorder?",
+"Are there any treatments for dissociative disorders?"
+],
+"responses": [
+"Therapy, such as trauma-focused therapy or dialectical behavior therapy (DBT), can help address underlying trauma and develop coping mechanisms.",
+"Building a safe and supportive environment can provide stability and reduce triggers for dissociative episodes.",
+"Practicing grounding techniques, such as deep breathing, mindfulness, or sensory stimulation, can help manage dissociative symptoms.",
+"Seeking guidance from a mental health professional experienced in dissociative disorders is crucial for effective treatment and support."
+]
+},
+{"tag" : "Reactive attachment disorder (RAD)",
+"patterns": [
+"I struggle with forming and maintaining healthy emotional connections.",
+"I have difficulty trusting others and fear rejection or abandonment.",
+"How can I manage my reactive attachment disorder?",
+"What treatments are available for RAD?"
+],
+"responses": [
+"Seeking therapy, such as attachment-focused therapy or trauma-focused therapy, can help address attachment issues and develop healthy coping strategies.",
+"Building a consistent and nurturing environment can help promote secure attachments and develop trust.",
+"Working with a mental health professional experienced in RAD can provide guidance and support throughout the healing process.",
+"Engaging in activities that promote emotional regulation and self-soothing, such as mindfulness or relaxation exercises, can be beneficial for managing RAD."
+]
+},
+{"tag" : "Premenstrual dysphoric disorder (PMDD)",
+"patterns": [
+"I experience severe mood swings, irritability, and depressive symptoms before my menstrual period.",
+"My premenstrual symptoms significantly affect my daily functioning and relationships.",
+"How can I manage my premenstrual dysphoric disorder?",
+"Are there any treatments or medications for PMDD?"
+],
+"responses": [
+"Keeping track of your menstrual cycle and symptom patterns can help identify and prepare for the onset of symptoms.",
+"Lifestyle changes such as regular exercise, stress management, and a balanced diet may help alleviate symptoms of PMDD.",
+"Medications, such as selective serotonin reuptake inhibitors (SSRIs), may be prescribed to regulate mood and manage symptoms of PMDD.",
+"Consulting with a healthcare professional or gynecologist experienced in PMDD can provide additional guidance and treatment options."
+]
+},
+{"tag" : "Gender dysphoria",
+"patterns": [
+"I experience distress due to a disconnect between my gender identity and assigned sex at birth.",
+"I struggle with societal expectations and acceptance of my gender identity.",
+"How can I manage my gender dysphoria?",
+"Are there any therapies or treatments for gender dysphoria?"
+],
+"responses": [
+"Seeking support from a gender-affirming therapist or counselor who specializes in gender dysphoria can provide guidance and validation.",
+"Exploring social and medical transitioning options, such as hormone therapy or gender-affirming surgeries, may alleviate gender dysphoria for some individuals.",
+"Connecting with supportive communities, such as LGBTQ+ organizations or support groups, can provide understanding and validation of your experiences.",
+"Remember to prioritize self-care and engage in activities that affirm your gender identity and promote overall well-being."
+]
+},
+{"tag" : "Trichotillomania (hair-pulling disorder)",
+"patterns": [
+"I have a compulsive urge to pull out my hair, resulting in noticeable hair loss.",
+"I feel a sense of tension and relief when engaging in hair-pulling behaviors.",
+"How can I manage my trichotillomania?",
+"Are there any treatments for hair-pulling disorder?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or habit reversal training (HRT), can help identify triggers and develop alternative coping strategies.",
+"Practicing stress management techniques, such as deep breathing or meditation, can help reduce the urge to engage in hair-pulling behaviors.",
+"Keeping hands busy with fidget toys or engaging in activities that promote relaxation can distract from the urge to pull hair.",
+"Support groups or online communities for individuals with trichotillomania can provide understanding and a sense of connection."
+]
+},
+{"tag" : "Excoriation disorder (skin-picking disorder)",
+"patterns": [
+"I engage in repetitive skin-picking behaviors that result in skin damage and scarring.",
+"I experience a sense of relief or satisfaction when picking at my skin.",
+"How can I manage my excoriation disorder?",
+"Are there any treatments for skin-picking disorder?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or habit reversal training (HRT), can help identify triggers and develop healthier coping mechanisms.",
+"Creating barriers or wearing gloves can help reduce access to the skin and minimize the opportunity for skin-picking behaviors.",
+"Developing alternative activities, such as squeezing stress balls or engaging in hobbies, can redirect the urge to pick at the skin.",
+"Seeking support from mental health professionals experienced in excoriation disorder can provide guidance and strategies for managing the condition."
+]
+},
+{"tag" : "Neurodevelopmental disorders",
+"patterns": [
+"I experience developmental delays or difficulties in cognitive or social functioning.",
+"I have challenges in communication, learning, or motor skills.",
+"How can I manage my neurodevelopmental disorder?",
+"What treatments or therapies are available for neurodevelopmental disorders?"
+],
+"responses": [
+"Seeking early intervention services, such as speech therapy, occupational therapy, or educational support, can help address developmental delays and promote skill development.",
+"Working with a multidisciplinary team, including healthcare professionals and therapists, can provide comprehensive assessment and treatment options.",
+"Developing individualized education plans (IEPs) or accessing special education services can provide additional support in academic settings.",
+"Connecting with support groups or organizations focused on neurodevelopmental disorders can offer resources, guidance, and a sense of community."
+]
+},
+{"tag" : "Dissociative amnesia",
+"patterns": [
+"I have periods of memory loss or amnesia, often related to traumatic experiences.",
+"I struggle with gaps in my memory and a sense of disconnection.",
+"How can I manage my dissociative amnesia?",
+"Are there any treatments for memory loss or amnesia?"
+],
+"responses": [
+"Working with a therapist experienced in trauma and dissociative disorders can help explore and process underlying traumatic experiences.",
+"Engaging in therapy modalities, such as eye movement desensitization and reprocessing (EMDR), can help unlock and integrate memories.",
+"Developing grounding techniques and using external cues, such as calendars or reminders, can assist in memory recall and reduce disorientation.",
+"Building a strong support network and seeking understanding from loved ones can provide stability and emotional support during episodes of dissociative amnesia."
+]
+},
+{"tag" : "Avoidant personality disorder",
+"patterns": [
+"I struggle with extreme shyness and fear of rejection or criticism.",
+"I tend to avoid social interactions and feel inadequate in social situations.",
+"How can I manage my avoidant personality disorder?",
+"Are there any treatments or therapies for AvPD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, can help challenge negative thought patterns and develop social skills.",
+"Gradual exposure to feared social situations, with the support of a therapist, can help desensitize avoidance and build confidence.",
+"Building a supportive network of understanding and non-judgmental individuals can provide a safe space for practicing social interactions.",
+"Engaging in self-care activities and developing self-compassion can help alleviate anxiety and improve overall well-being."
+]
+},
+{"tag" : "Dependent personality disorder",
+"patterns": [
+"I struggle with excessive dependence on others and fear of separation or abandonment.",
+"I have difficulty making decisions and often rely on others for support.",
+"How can I manage my dependent personality disorder?",
+"Are there any treatments or therapies for DPD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can help develop self-confidence and coping strategies.",
+"Exploring boundaries and gradually increasing independence in a supportive and controlled manner can help build self-reliance.",
+"Engaging in assertiveness training and learning to voice personal needs and preferences can be beneficial in managing dependent personality disorder.",
+"Building a strong support network and accessing support groups for individuals with dependent personality disorder can provide understanding and guidance."
+]
+},
+{"tag" : "Cognitive impairment",
+"patterns": [
+"I have difficulties with memory, attention, or other cognitive functions.",
+"I struggle with problem-solving and processing information.",
+"How can I manage my cognitive impairment?",
+"Are there any treatments or interventions for cognitive impairment?"
+],
+"responses": [
+"Seeking a comprehensive evaluation by a healthcare professional experienced in cognitive impairments can help identify potential causes and treatment options.",
+"Engaging in cognitive rehabilitation therapy, which focuses on exercises and strategies to improve cognitive functions, can be beneficial.",
+"Developing compensatory strategies, such as using calendars, reminders, or assistive technologies, can help manage cognitive impairments in daily life.",
+"Maintaining a healthy lifestyle, including regular exercise, proper nutrition, and sufficient sleep, can support overall brain health and cognitive functioning."
+]
+},
+{"tag" : "Schizotypal personality disorder",
+"patterns": [
+"I struggle with social anxiety, unconventional beliefs, and eccentric behavior.",
+"I have difficulties with close relationships and often feel misunderstood.",
+"How can I manage my schizotypal personality disorder?",
+"Are there any treatments or therapies for SPD?"
+],
+"responses": [
+"Therapy, such as cognitive-behavioral therapy (CBT) or psychodynamic therapy, can help address distorted thinking patterns and improve social skills.",
+"Learning stress management techniques, such as relaxation exercises or mindfulness, can help reduce anxiety and enhance overall well-being.",
+"Building a supportive network of understanding individuals and participating in support groups can provide validation and reduce feelings of isolation.",
+"Medication may be prescribed to target specific symptoms or co-occurring conditions associated with schizotypal personality disorder, but therapy is typically the primary treatment approach."
+]
+},
+{"tag" : "Cyclothymic disorder",
+"patterns": [
+"I experience mood swings and fluctuating energy levels.",
+"I struggle with emotional instability and finding stability in my daily life.",
+"How can I manage my cyclothymic disorder?",
+"Are there any treatments for mood swings and emotional instability?"
+],
+"responses": [
+"Working with a mental health professional to develop a mood tracking system can help identify patterns and triggers.",
+"Therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can assist in managing mood swings and developing coping mechanisms.",
+"Medications, such as mood stabilizers, may be prescribed to help regulate mood and manage symptoms of cyclothymic disorder.",
+"Engaging in self-care activities, maintaining a balanced routine, and prioritizing sleep can help stabilize mood and promote overall well-being."
+]
+},
+{"tag" : "Internet addiction disorder",
+"patterns": [
+"I feel excessive and uncontrollable urges to use the internet or engage in online activities.",
+"My internet usage interferes with my daily life, work, and relationships.",
+"How can I manage my internet addiction disorder?",
+"Are there any treatments for internet addiction?"
+],
+"responses": [
+"Establishing healthy boundaries and setting specific time limits for internet usage can help manage internet addiction.",
+"Engaging in alternative activities, such as hobbies, exercise, or socializing, can reduce dependence on the internet.",
+"Seeking support from a therapist experienced in addiction or behavioral disorders can provide guidance and strategies for managing internet addiction.",
+"Consider joining support groups or online communities focused on internet addiction to connect with others facing similar challenges and share experiences."
+]
+},
+{"tag" : "Gambling disorder",
+"patterns": [
+"I have an uncontrollable urge to gamble and it's causing problems in my life.",
+"I'm struggling with gambling addiction and it's affecting my relationships and finances.",
+"How can I overcome my gambling disorder?",
+"Are there any treatments or therapies for gambling addiction?"
+],
+"responses": [
+"Seeking help from a mental health professional or a support group specializing in gambling addiction can provide guidance and support.",
+"Consider participating in cognitive-behavioral therapy (CBT) or a gambling addiction treatment program to address underlying issues and develop healthier coping strategies.",
+"Developing a support system and avoiding triggers or environments associated with gambling can help in managing gambling disorder.",
+"Engaging in alternative activities, such as hobbies or sports, can redirect your focus and provide a healthy outlet for compulsive behaviors."
+]
+},
+{"tag" : "Compulsive buying disorder",
+"patterns": [
+"I have an irresistible urge to buy things, even when I can't afford them.",
+"I'm experiencing financial difficulties due to my compulsive buying behavior.",
+"How can I manage my compulsive buying disorder?",
+"Are there any treatments or therapies for compulsive shopping?"
+],
+"responses": [
+"Working with a therapist experienced in treating compulsive buying disorder can help identify underlying triggers and develop strategies to regain control.",
+"Consider participating in cognitive-behavioral therapy (CBT) or a support group specifically focused on compulsive buying to address the addictive behavior.",
+"Practicing mindful shopping, setting spending limits, and seeking accountability from a trusted friend or family member can assist in managing compulsive buying tendencies.",
+"Finding alternative outlets for emotional distress, such as engaging in hobbies or pursuing creative endeavors, can help redirect the urge to shop."
+]
+},
+{"tag" : "Compulsive sexual behavior disorder",
+"patterns": [
+"I struggle with recurrent and intense sexual impulses or behaviors that are difficult to control.",
+"My compulsive sexual behavior is causing distress and interfering with my daily life.",
+"How can I manage my compulsive sexual behavior disorder?",
+"Are there any treatments or therapies for compulsive sexual behavior?"
+],
+"responses": [
+"Working with a therapist specializing in compulsive sexual behavior can provide support and guidance in understanding and managing the underlying causes.",
+"Participating in cognitive-behavioral therapy (CBT) or a 12-step program, such as Sex Addicts Anonymous (SAA), can help address addictive patterns and develop healthier coping mechanisms.",
+"Creating a safety plan to manage triggers and implementing strategies to promote impulse control, such as distraction techniques or self-soothing activities, can be beneficial.",
+"Building a support network and considering involvement in support groups specific to compulsive sexual behavior can provide understanding and a sense of community."
+]
+},
+{"tag" : "Anhedonia",
+"patterns": [
+"I feel a persistent inability to experience pleasure or joy in activities I used to enjoy.",
+"I have a lack of motivation and interest in things that once brought me happiness.",
+"How can I overcome anhedonia?",
+"Are there any treatments for anhedonia?"
+],
+"responses": [
+"Consulting with a mental health professional to explore potential underlying causes of anhedonia, such as depression or other mental health conditions, can provide guidance.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or behavioral activation therapy, can help address negative thought patterns and re-engage in activities.",
+"Engaging in pleasurable activities, even if you don't initially feel motivated, can help stimulate positive emotions and potentially reduce anhedonic symptoms.",
+"Taking care of your physical health through regular exercise, proper nutrition, and sufficient sleep can also contribute to improving anhedonia."
+]
+},
+{"tag" : "Premature ejaculation",
+"patterns": [
+"I struggle with consistently ejaculating sooner than I or my partner would like during sexual activity.",
+"Premature ejaculation is causing distress and impacting my sexual relationships.",
+"How can I manage premature ejaculation?",
+"Are there any treatments or exercises for premature ejaculation?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a urologist or sex therapist, can provide insights into potential causes and treatment options for premature ejaculation.",
+"Practicing techniques like the stop-start method or the squeeze technique, either alone or with a partner, can help improve ejaculatory control.",
+"Engaging in relaxation exercises, such as deep breathing or mindfulness, can help reduce performance anxiety and promote a more relaxed state during sexual activity.",
+"Considering therapy, such as cognitive-behavioral therapy (CBT) or sex therapy, can address underlying psychological factors and provide strategies for managing premature ejaculation."
+]
+},
+{"tag" : "Delayed ejaculation",
+"patterns": [
+"I experience significant delays or difficulties reaching orgasm or ejaculating during sexual activity.",
+"Delayed ejaculation is causing frustration and affecting my sexual satisfaction.",
+"How can I manage delayed ejaculation?",
+"Are there any treatments or exercises for delayed ejaculation?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a urologist or sex therapist, can provide insights into potential causes and treatment options for delayed ejaculation.",
+"Exploring different techniques or positions during sexual activity with the guidance and communication of a partner can help increase stimulation and reduce delays.",
+"Addressing any underlying psychological factors, such as anxiety or stress, through therapy, such as cognitive-behavioral therapy (CBT) or sex therapy, may be beneficial.",
+"Engaging in relaxation exercises and focusing on sensations rather than performance pressure can help create a more relaxed and enjoyable sexual experience."
+]
+},
+{"tag" : "Erectile dysfunction",
+"patterns": [
+"I struggle with consistently achieving or maintaining an erection sufficient for sexual activity.",
+"Erectile dysfunction is causing distress and impacting my sexual relationships.",
+"How can I manage erectile dysfunction?",
+"Are there any treatments or exercises for erectile dysfunction?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a urologist or sex therapist, can provide insights into potential causes and treatment options for erectile dysfunction.",
+"Lifestyle changes, such as regular exercise, maintaining a healthy weight, and managing stress levels, can contribute to improving erectile function.",
+"Exploring medications or medical interventions, under the guidance of a healthcare professional, may be an option for managing erectile dysfunction.",
+"Considering therapy, such as cognitive-behavioral therapy (CBT) or sex therapy, can address any underlying psychological factors and provide strategies for managing erectile dysfunction."
+]
+},
+{"tag" : "Gender identity disorder",
+"patterns": [
+"I experience a significant disconnect between my assigned gender and my gender identity.",
+"My gender identity causes distress and impacts my mental well-being.",
+"How can I manage gender identity disorder?",
+"Are there any treatments or therapies for gender identity issues?"
+],
+"responses": [
+"Consulting with a mental health professional experienced in working with gender identity issues can provide guidance and support throughout your journey.",
+"Exploring your gender identity and expression in a safe and supportive environment, such as through therapy or support groups, can be beneficial.",
+"Considering medical interventions, such as hormone therapy or gender-affirming surgeries, may be an option for some individuals seeking gender congruence.",
+"Building a support network of understanding and affirming individuals, including friends, family, or LGBTQ+ organizations, can provide validation and a sense of belonging."
+]
+},
+{"tag" : "Voyeuristic disorder",
+"patterns": [
+"I have an intense and recurrent interest in watching others undress or engage in sexual activities without their consent.",
+"My voyeuristic tendencies are causing distress and guilt.",
+"How can I manage voyeuristic disorder?",
+"Are there any treatments or therapies for voyeurism?"
+],
+"responses": [
+"Recognizing the harmful nature of voyeuristic behavior and seeking help from a mental health professional is a crucial first step.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or sex therapy, can help address underlying issues and develop healthier coping mechanisms.",
+"Engaging in empathy-building exercises and learning to respect others' boundaries and consent can be an important aspect of treatment.",
+"Joining support groups or seeking out specialized programs focused on addressing voyeuristic behavior can provide guidance and a sense of community."
+]
+},
+{"tag" : "Exhibitionistic disorder",
+"patterns": [
+"I have a recurrent urge to expose my genitals to unsuspecting individuals.",
+"My exhibitionistic tendencies are causing distress and guilt.",
+"How can I manage exhibitionistic disorder?",
+"Are there any treatments or therapies for exhibitionism?"
+],
+"responses": [
+"Acknowledging the harmful and non-consensual nature of exhibitionistic behavior is an important first step.",
+"Seeking help from a mental health professional specializing in sexual disorders or paraphilias can provide guidance and support.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or specialized treatment programs, can address underlying issues and develop healthier coping strategies.",
+"Learning appropriate boundaries, consent, and engaging in empathy-building exercises can be essential components of treatment for exhibitionistic disorder."
+]
+},
+{"tag" : "Frotteuristic disorder",
+"patterns": [
+"I have recurrent and intense sexual urges involving touching or rubbing against non-consenting individuals.",
+"My frotteuristic tendencies are causing distress and guilt.",
+"How can I manage frotteuristic disorder?",
+"Are there any treatments or therapies for frotteurism?"
+],
+"responses": [
+"Recognizing the non-consensual nature of frotteuristic behavior and seeking help from a mental health professional is a crucial first step.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or specialized treatment programs, can address underlying issues and develop healthier coping mechanisms.",
+"Learning appropriate boundaries, consent, and engaging in empathy-building exercises can be essential components of treatment for frotteuristic disorder.",
+"Joining support groups or seeking out specialized programs focused on addressing frotteurism can provide guidance and a sense of community."
+]
+},
+{"tag" : "Pedophilic disorder",
+"patterns": [
+"I experience recurrent and intense sexual fantasies, urges, or behaviors involving prepubescent children.",
+"My pedophilic tendencies are causing distress and guilt.",
+"How can I manage pedophilic disorder?",
+"Are there any treatments or therapies for pedophilia?"
+],
+"responses": [
+"Recognizing the harmful and illegal nature of pedophilic thoughts or behaviors is a crucial first step.",
+"Seeking help from a mental health professional experienced in working with individuals with pedophilic disorder is essential.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or specialized treatment programs, can address underlying issues and develop strategies to prevent harm.",
+"Joining support groups or seeking out specialized programs focused on preventing sexual offenses can provide guidance and a sense of accountability."
+]
+},
+{"tag" : "Substance-induced disorders",
+"patterns": [
+"I'm experiencing mental health symptoms as a result of substance use or withdrawal.",
+"My substance use is impacting my mental well-being and overall functioning.",
+"How can I manage substance-induced disorders?",
+"Are there any treatments or therapies for substance-induced mental health issues?"
+],
+"responses": [
+"Seeking help from a mental health professional or addiction specialist is crucial in managing substance-induced disorders.",
+"Detoxification and medical stabilization may be necessary in some cases to manage withdrawal symptoms.",
+"Participating in substance abuse treatment programs, such as inpatient rehabilitation or outpatient therapy, can help address both the substance use and the resulting mental health symptoms.",
+"Building a support network and considering participation in support groups, such as Alcoholics Anonymous (AA) or Narcotics Anonymous (NA), can provide understanding and a sense of community."
+]
+},
+{"tag" : "Intermittent explosive disorder",
+"patterns": [
+"I struggle with recurrent and intense episodes of explosive anger or aggression.",
+"My intermittent explosive disorder is causing difficulties in my personal and professional relationships.",
+"How can I manage intermittent explosive disorder?",
+"Are there any treatments or therapies for explosive anger?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, is important in managing intermittent explosive disorder.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or anger management programs, can help identify triggers and develop healthier coping strategies.",
+"Learning and practicing relaxation techniques, such as deep breathing or mindfulness, can assist in managing anger and impulse control.",
+"Developing a safety plan and removing oneself from triggering situations can be crucial in preventing episodes of explosive anger."
+]
+},
+{"tag" : "Pyromania",
+"patterns": [
+"I have an intense fascination with fire and an urge to set things on fire.",
+"My pyromaniac tendencies are causing distress and pose a risk to myself and others.",
+"How can I manage pyromania?",
+"Are there any treatments or therapies for pyromaniacs?"
+],
+"responses": [
+"Recognizing the harmful and dangerous nature of pyromaniac behaviors is essential in seeking help.",
+"Consulting with a mental health professional experienced in working with individuals with pyromania is crucial.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or specialized treatment programs, can address underlying issues and develop strategies to prevent harm.",
+"Building a support network and considering participation in support groups or educational programs focused on fire safety and prevention can provide guidance and accountability."
+]
+},
+{"tag" : "Kleptomania",
+"patterns": [
+"I have an irresistible urge to steal items that I don't need or that hold little value.",
+"My kleptomania is causing distress and legal consequences.",
+"How can I manage kleptomania?",
+"Are there any treatments or therapies for kleptomania?"
+],
+"responses": [
+"Recognizing the harmful and illegal nature of kleptomania is crucial in seeking help.",
+"Consulting with a mental health professional experienced in treating kleptomania is important.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or specialized treatment programs, can address underlying issues and develop strategies to manage urges and prevent stealing.",
+"Building a support network and considering participation in support groups or self-help programs, such as Kleptomaniacs Anonymous, can provide guidance and accountability."
+]
+},
+{"tag" : "Factitious disorder",
+"patterns": [
+"I have a pattern of intentionally feigning or exaggerating physical or psychological symptoms for attention or to assume the role of a sick person.",
+"My factitious disorder is causing distress and interfering with my relationships.",
+"How can I manage factitious disorder?",
+"Are there any treatments or therapies for factitious disorder?"
+],
+"responses": [
+"Seeking help from a mental health professional is important in managing factitious disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT), can address underlying issues and develop healthier coping mechanisms.",
+"Exploring the motivations and factors driving the desire for attention or the sick role can be a focus of therapy.",
+"Building a support network and involving loved ones in the treatment process can provide understanding and accountability."
+]
+},
+{"tag" : "Tic disorders",
+"patterns": [
+"I experience sudden, repetitive, and involuntary movements or sounds called tics.",
+"My tic disorder is causing distress and interfering with my daily life.",
+"How can I manage tic disorders?",
+"Are there any treatments or therapies for tics?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a neurologist or psychiatrist, is important in managing tic disorders.",
+"Exploring medication options, such as antipsychotics or alpha-agonists, under the guidance of a healthcare professional, may help manage tics.",
+"Participating in behavioral therapies, such as habit reversal training (HRT) or cognitive-behavioral therapy (CBT), can help identify triggers and develop coping strategies.",
+"Joining support groups or seeking out organizations focused on tic disorders, such as the Tourette Association of America, can provide guidance and a sense of community."
+]
+},
+{"tag" : "Depersonalization-derealization disorder",
+"patterns": [
+"I often experience a sense of detachment or feeling disconnected from my own body, thoughts, or surroundings.",
+"My depersonalization-derealization disorder is causing distress and impacting my daily functioning.",
+"How can I manage depersonalization-derealization disorder?",
+"Are there any treatments or therapies for dissociative disorders?"
+],
+"responses": [
+"Seeking help from a mental health professional, such as a therapist or psychiatrist, is important in managing depersonalization-derealization disorder.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can help identify triggers and develop coping strategies.",
+"Engaging in grounding techniques, such as deep breathing, body scanning, or sensory stimulation, can assist in managing dissociative episodes.",
+"Building a support network and considering participation in support groups or online communities focused on dissociative disorders can provide understanding and validation."
+]
+},
+{"tag" : "Rumination disorder",
+"patterns": [
+"I have a persistent pattern of regurgitating and rechewing food, which is not related to a gastrointestinal condition or another eating disorder.",
+"My rumination disorder is causing distress and interfering with my eating habits.",
+"How can I manage rumination disorder?",
+"Are there any treatments or therapies for rumination disorder?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a gastroenterologist or eating disorder specialist, is important in managing rumination disorder.",
+"Exploring potential underlying causes, such as stress or anxiety, and addressing them through therapy or stress management techniques can be beneficial.",
+"Engaging in behavioral therapies, such as habit reversal training (HRT) or cognitive-behavioral therapy (CBT), can help identify triggers and develop healthier eating patterns.",
+"Building a support network and involving loved ones in the treatment process can provide understanding and accountability."
+]
+},
+{"tag" : "Selective mutism",
+"patterns": [
+"I consistently fail to speak in specific social situations, despite being capable of speaking in other settings.",
+"My selective mutism is causing distress and interfering with my ability to communicate.",
+"How can I manage selective mutism?",
+"Are there any treatments or therapies for selective mutism?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a psychologist or speech-language pathologist, experienced in treating selective mutism is important.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, can help gradually and systematically desensitize individuals to speaking in anxiety-provoking situations.",
+"Encouraging and reinforcing communication attempts, such as through positive reinforcement or social skills training, can assist in managing selective mutism.",
+"Involving parents, teachers, and other caregivers in the treatment process can provide support and consistency across different environments."
+]
+},
+{"tag" : "Sleep-wake disorders",
+"patterns": [
+"I experience disruptions in my sleep patterns, such as insomnia, hypersomnia, or irregular sleep-wake cycles.",
+"My sleep-wake disorder is causing distress and impacting my daily functioning.",
+"How can I manage sleep-wake disorders?",
+"Are there any treatments or therapies for sleep disorders?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a sleep specialist or psychiatrist, is important in managing sleep-wake disorders.",
+"Establishing a consistent sleep routine and practicing good sleep hygiene, such as creating a calm sleep environment and avoiding stimulating activities before bed, can be beneficial.",
+"Exploring relaxation techniques, such as meditation or deep breathing exercises, can help promote better sleep.",
+"In some cases, medication options may be considered under the guidance of a healthcare professional to manage sleep-wake disorders."
+]
+},
+{"tag" : "Neurocognitive disorders",
+"patterns": [
+"I experience cognitive decline or impairment in areas such as memory, attention, or language.",
+"My neurocognitive disorder is causing distress and interfering with my daily life.",
+"How can I manage neurocognitive disorders?",
+"Are there any treatments or therapies for cognitive decline?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a neurologist or geriatrician, is important in managing neurocognitive disorders.",
+"Exploring potential underlying causes, such as Alzheimer's disease or vascular dementia, through medical evaluation and diagnostic tests can provide insights into appropriate treatments.",
+"Participating in cognitive rehabilitation programs or therapies can help maintain cognitive function and develop compensatory strategies.",
+"Involving caregivers and loved ones in the treatment process can provide support and assistance in managing daily activities."
+]
+},
+{"tag" : "Communication disorders",
+"patterns": [
+"I experience difficulties in speech, language, or communication that interfere with my ability to express myself or understand others.",
+"My communication disorder is causing distress and impacting my social interactions.",
+"How can I manage communication disorders?",
+"Are there any treatments or therapies for speech and language difficulties?"
+],
+"responses": [
+"Consulting with a speech-language pathologist or communication disorders specialist is important in managing communication disorders.",
+"Participating in speech therapy or language intervention programs can help improve speech production, language comprehension, and communication skills.",
+"Engaging in assistive technology or alternative communication methods, such as sign language or augmentative and alternative communication (AAC) devices, can assist in communication.",
+"Involving family members, caregivers, and teachers in therapy sessions can support consistent practice and generalization of skills to different environments."
+]
+},
+{"tag" : "Neuroleptic malignant syndrome (NMS)",
+"patterns": [
+"I have been taking neuroleptic medication and experiencing severe muscle stiffness, high fever, and changes in mental status.",
+"My symptoms are consistent with neuroleptic malignant syndrome (NMS).",
+"How can I manage neuroleptic malignant syndrome?",
+"What should I do if I suspect I have NMS?"
+],
+"responses": [
+"Neuroleptic malignant syndrome is a medical emergency, and immediate medical attention is required.",
+"Contacting a healthcare professional or going to the nearest emergency room is important if you suspect you have NMS.",
+"Treatment typically involves discontinuing the neuroleptic medication, providing supportive care, and managing symptoms, such as with intravenous fluids or muscle relaxants.",
+"It is crucial to communicate your symptoms and medication history to healthcare professionals to ensure appropriate diagnosis and treatment."
+]
+},
+{"tag" : "Body-focused repetitive behaviors (BFRBs)",
+"patterns": [
+"I engage in repetitive behaviors that cause damage or injury to my body, such as hair pulling (trichotillomania) or skin picking (excoriation disorder).",
+"My body-focused repetitive behaviors are causing distress and interfering with my daily life.",
+"How can I manage body-focused repetitive behaviors?",
+"Are there any treatments or therapies for BFRBs?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, experienced in treating BFRBs is important.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or habit reversal training (HRT), can help identify triggers and develop healthier coping strategies.",
+"Exploring alternative behaviors or sensory substitutes can assist in redirecting the urge to engage in body-focused repetitive behaviors.",
+"Building a support network and considering participation in support groups or online communities focused on BFRBs can provide understanding and validation."
+]
+},
+{"tag" : "Avoidant/restrictive food intake disorder (ARFID)",
+"patterns": [
+"I have a limited range of accepted foods and significant anxiety or avoidance related to eating.",
+"My avoidant/restrictive food intake disorder is causing distress and impacting my nutritional health.",
+"How can I manage ARFID?",
+"Are there any treatments or therapies for avoidant/restrictive eating?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a dietitian or eating disorder specialist, is important in managing ARFID.",
+"Exploring potential underlying causes, such as sensory sensitivities or traumatic experiences, can inform treatment approaches.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or exposure therapy, can help expand food variety and address anxiety around eating.",
+"Engaging in nutritional counseling and developing meal plans that accommodate individual preferences and sensitivities can support nutritional health."
+]
+},
+{"tag" : "Opioid use disorder",
+"patterns": [
+"I have developed a problematic pattern of opioid use and am experiencing difficulties in stopping or controlling it.",
+"My opioid use disorder is causing distress and impacting various aspects of my life.",
+"How can I manage opioid use disorder?",
+"Are there any treatments or therapies for opioid addiction?"
+],
+"responses": [
+"Seeking help from a healthcare professional, such as an addiction specialist or counselor, is important in managing opioid use disorder.",
+"Considering medication-assisted treatment (MAT) options, such as methadone or buprenorphine, under the guidance of a healthcare professional, can support recovery.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or contingency management, can address underlying issues and develop healthier coping mechanisms.",
+"Building a support network and considering participation in support groups, such as Narcotics Anonymous (NA), can provide guidance and accountability."
+]
+},
+{"tag" : "Inhalant use disorder",
+"patterns": [
+"I have developed a problematic pattern of inhalant use and am experiencing difficulties in stopping or controlling it.",
+"My inhalant use disorder is causing distress and impacting various aspects of my life.",
+"How can I manage inhalant use disorder?",
+"Are there any treatments or therapies for inhalant addiction?"
+],
+"responses": [
+"Seeking help from a healthcare professional, such as an addiction specialist or counselor, is important in managing inhalant use disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or motivational interviewing, can address underlying issues and develop healthier coping mechanisms.",
+"Exploring residential or outpatient treatment programs focused on substance use disorders can provide a structured and supportive environment for recovery.",
+"Building a support network and considering participation in support groups, such as Inhalants Anonymous, can provide guidance and accountability."
+]
+},
+{"tag" : "Dissociative fugue",
+"patterns": [
+"I experience episodes of amnesia and unexpected travel, during which I cannot recall my past identity or personal information.",
+"My dissociative fugue episodes are causing distress and interfering with my daily life.",
+"How can I manage dissociative fugue?",
+"Are there any treatments or therapies for dissociative disorders?"
+],
+"responses": [
+"Seeking help from a mental health professional, such as a therapist or psychiatrist, is important in managing dissociative fugue.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or eye movement desensitization and reprocessing (EMDR), can help address underlying trauma or stressors that may trigger episodes.",
+"Developing a safety plan and involving trusted individuals who can provide support during dissociative episodes is important.",
+"Building a support network and considering participation in support groups or online communities focused on dissociative disorders can provide understanding and validation."
+]
+},
+{"tag" : "Disinhibited social engagement disorder",
+"patterns": [
+"I consistently approach and interact with unfamiliar individuals in an overly familiar and indiscriminate manner.",
+"My disinhibited social engagement disorder is causing distress and impacting my social relationships.",
+"How can I manage disinhibited social engagement disorder?",
+"Are there any treatments or therapies for disinhibited social engagement?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychologist, is important in managing disinhibited social engagement disorder.",
+"Participating in therapy, such as cognitive-behavioral therapy (CBT) or play therapy, can help develop appropriate social boundaries and relational skills.",
+"Building a consistent and nurturing caregiving environment can support healthy attachment and social development.",
+"Involving parents, teachers, and other caregivers in the treatment process can provide support and consistency in managing social interactions."
+]
+},
+{"tag" : "Gender dysphoria in children",
+"patterns": [
+"My child consistently expresses distress or discomfort with their assigned gender and identifies as a different gender.",
+"My child's gender dysphoria is causing distress and impacting their well-being.",
+"How can I support my child with gender dysphoria?",
+"Are there any treatments or therapies for gender dysphoria in children?"
+],
+"responses": [
+"Seeking support from a mental health professional, such as a therapist or psychologist, experienced in working with gender dysphoria is important.",
+"Providing a supportive and accepting environment for your child to explore their gender identity is crucial.",
+"Engaging in family therapy or parent guidance sessions can help parents better understand and support their child's journey.",
+"Exploring medical interventions, such as puberty blockers or hormone therapy, under the guidance of healthcare professionals experienced in pediatric transgender care, may be considered in some cases."
+]
+},
+{"tag" : "Rumination syndrome",
+"patterns": [
+"I regurgitate and rechew food unintentionally, often accompanied by discomfort or bloating.",
+"My rumination syndrome is causing distress and impacting my daily life.",
+"How can I manage rumination syndrome?",
+"Are there any treatments or therapies for rumination disorder?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a gastroenterologist or eating disorder specialist, is important in managing rumination syndrome.",
+"Developing awareness of triggers and implementing strategies to interrupt the rumination cycle, such as diaphragmatic breathing or redirecting attention, can be beneficial.",
+"In some cases, medications that reduce stomach acid secretion may be considered under the guidance of a healthcare professional to manage rumination syndrome.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can address underlying psychological factors and develop healthier coping mechanisms."
+]
+},
+{"tag" : "Caffeine use disorder",
+"patterns": [
+"I have developed a problematic pattern of caffeine consumption and am experiencing difficulties in reducing or controlling it.",
+"My caffeine use disorder is causing distress and impacting various aspects of my life.",
+"How can I manage caffeine use disorder?",
+"Are there any treatments or therapies for caffeine addiction?"
+],
+"responses": [
+"Seeking help from a healthcare professional, such as an addiction specialist or counselor, is important in managing caffeine use disorder.",
+"Gradually reducing caffeine consumption and replacing it with healthier alternatives, such as herbal tea or decaffeinated beverages, can be beneficial.",
+"Exploring underlying reasons for excessive caffeine use, such as stress or sleep disturbances, and addressing them through therapy or lifestyle changes is important.",
+"Building a support network and considering participation in support groups, such as Caffeine Addicts Anonymous, can provide guidance and accountability."
+]
+},
+{"tag" : "Phencyclidine (PCP) use disorder",
+"patterns": [
+"I have developed a problematic pattern of PCP use and am experiencing difficulties in stopping or controlling it.",
+"My PCP use disorder is causing distress and impacting various aspects of my life.",
+"How can I manage PCP use disorder?",
+"Are there any treatments or therapies for PCP addiction?"
+],
+"responses": [
+"Seeking help from a healthcare professional, such as an addiction specialist or counselor, is important in managing PCP use disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or motivational interviewing, can address underlying issues and develop healthier coping mechanisms.",
+"Exploring residential or outpatient treatment programs focused on substance use disorders can provide a structured and supportive environment for recovery.",
+"Building a support network and considering participation in support groups, such as PCP Anonymous, can provide guidance and accountability."
+]
+},
+{"tag" : "Hallucinogen persisting perception disorder (HPPD)",
+"patterns": [
+"I experience recurring visual disturbances, such as seeing trails or geometric patterns, even after discontinuing hallucinogen use.",
+"My HPPD is causing distress and impacting my daily life.",
+"How can I manage hallucinogen persisting perception disorder?",
+"Are there any treatments or therapies for HPPD?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a psychiatrist or neurologist, is important in managing HPPD.",
+"Avoiding substance use, particularly hallucinogens, is crucial in minimizing symptoms and preventing further exacerbation.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or exposure and response prevention (ERP), can help individuals cope with and manage symptoms.",
+"Exploring relaxation techniques, mindfulness, or stress-reduction strategies may assist in managing symptoms and improving overall well-being."
+]
+},
+{"tag" : "Delirium",
+"patterns": [
+"I am experiencing confusion, disorientation, and changes in cognitive function that have developed rapidly.",
+"My symptoms are consistent with delirium.",
+"How can I manage delirium?",
+"What should I do if I suspect I have delirium?"
+],
+"responses": [
+"Delirium is a medical emergency, and immediate medical attention is required.",
+"Contacting a healthcare professional or going to the nearest emergency room is important if you suspect you have delirium.",
+"Determining and addressing the underlying cause of delirium, such as infection, medication side effects, or dehydration, is crucial for management.",
+"Providing a calm and supportive environment, minimizing environmental stimuli, and ensuring hydration and proper nutrition can assist in managing delirium."
+]
+},
+{"tag" : "Steroid-induced psychosis",
+"patterns": [
+"I am experiencing psychotic symptoms, such as hallucinations or delusions, as a result of steroid medication.",
+"My symptoms are consistent with steroid-induced psychosis.",
+"How can I manage steroid-induced psychosis?",
+"What should I do if I suspect I have steroid-induced psychosis?"
+],
+"responses": [
+"Consulting with a healthcare professional, such as a psychiatrist or endocrinologist, is important in managing steroid-induced psychosis.",
+"Adjusting or tapering the steroid medication under the guidance of a healthcare professional may be necessary to alleviate symptoms.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or supportive psychotherapy, can assist in managing psychotic symptoms and addressing any underlying psychological factors.",
+"Regular monitoring and follow-up with healthcare professionals is important to ensure appropriate management of steroid-induced psychosis."
+]
+},
+{"tag" : "Factitious disorder imposed on another (Munchausen syndrome by proxy)",
+"patterns": [
+"I suspect someone close to me is fabricating or causing illness or injury to another person for personal gratification.",
+"I believe there may be a case of factitious disorder imposed on another (Munchausen syndrome by proxy) happening.",
+"How can I address or intervene in a situation of factitious disorder imposed on another?",
+"What should I do if I suspect someone is engaging in Munchausen syndrome by proxy?"
+],
+"responses": [
+"If you suspect someone is engaging in factitious disorder imposed on another, it is essential to ensure the safety and well-being of the victim.",
+"Contacting appropriate authorities, such as child protective services or adult protective services, depending on the circumstances, is crucial.",
+"Sharing your concerns with healthcare professionals involved in the care of the victim can help initiate an investigation and protect the individual.",
+"Supporting the victim and providing them with a safe and supportive environment is important during and after the intervention process."
+]
+},
+{"tag" : "Other specified anxiety disorder",
+"patterns": [
+"I experience intense anxiety and worry that significantly impacts my daily life, but my symptoms do not align with any specific anxiety disorder.",
+"My symptoms are consistent with other specified anxiety disorder.",
+"How can I manage other specified anxiety disorder?",
+"What treatment options are available for other specified anxiety disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychologist, is important in managing other specified anxiety disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or acceptance and commitment therapy (ACT), can help address the underlying causes of anxiety and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs), under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring lifestyle changes, stress-reduction techniques, and self-care practices can support overall well-being and help manage anxiety symptoms."
+]
+},
+{"tag" : "Unspecified anxiety disorder",
+"patterns": [
+"I experience intense anxiety and worry that significantly impacts my daily life, but I am uncertain about the specific type of anxiety disorder I may have.",
+"My symptoms align with anxiety disorder, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified anxiety disorder?",
+"What treatment options are available for unspecified anxiety disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychologist, is important in managing unspecified anxiety disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or mindfulness-based stress reduction (MBSR), can help address the underlying causes of anxiety and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs) or benzodiazepines, under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring lifestyle changes, stress-reduction techniques, and self-care practices can support overall well-being and help manage anxiety symptoms."
+]
+},
+{"tag" : "Other specified depressive disorder",
+"patterns": [
+"I experience persistent feelings of sadness, hopelessness, and loss of interest, but my symptoms do not align with any specific depressive disorder.",
+"My symptoms are consistent with other specified depressive disorder.",
+"How can I manage other specified depressive disorder?",
+"What treatment options are available for other specified depressive disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, is important in managing other specified depressive disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or interpersonal therapy (IPT), can help address the underlying causes of depression and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs) or tricyclic antidepressants (TCAs), under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring self-care practices, exercise, and social support can support overall well-being and help manage depressive symptoms."
+]
+},
+{"tag" : "Unspecified depressive disorder",
+"patterns": [
+"I experience persistent feelings of sadness, hopelessness, and loss of interest, but I am uncertain about the specific type of depressive disorder I may have.",
+"My symptoms align with depression, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified depressive disorder?",
+"What treatment options are available for unspecified depressive disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, is important in managing unspecified depressive disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or psychodynamic therapy, can help address the underlying causes of depression and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs), under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring self-care practices, lifestyle changes, and social support can support overall well-being and help manage depressive symptoms."
+]
+},
+{"tag" : "Other specified bipolar and related disorder",
+"patterns": [
+"I experience significant mood swings and fluctuations in energy levels, but my symptoms do not align with any specific bipolar or related disorder.",
+"My symptoms are consistent with other specified bipolar and related disorder.",
+"How can I manage other specified bipolar and related disorder?",
+"What treatment options are available for other specified bipolar and related disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a psychiatrist or psychologist, is important in managing other specified bipolar and related disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or dialectical behavior therapy (DBT), can help address mood dysregulation and develop coping strategies.",
+"Considering medication options, such as mood stabilizers or atypical antipsychotics, under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Establishing a structured daily routine, practicing stress reduction techniques, and maintaining a supportive network can assist in managing symptoms and promoting stability."
+]
+},
+{"tag" : "Unspecified bipolar and related disorder",
+"patterns": [
+"I experience significant mood swings and fluctuations in energy levels, but I am uncertain about the specific type of bipolar or related disorder I may have.",
+"My symptoms align with bipolar disorder, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified bipolar and related disorder?",
+"What treatment options are available for unspecified bipolar and related disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a psychiatrist or psychologist, is important in managing unspecified bipolar and related disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or psychoeducation, can help individuals better understand their symptoms and develop coping mechanisms.",
+"Considering medication options, such as mood stabilizers or antipsychotics, under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Establishing a structured daily routine, practicing stress reduction techniques, and maintaining a supportive network can assist in managing symptoms and promoting stability."
+]
+},
+{"tag" : "Other specified schizophrenia spectrum and other psychotic disorder",
+"patterns": [
+"I experience psychotic symptoms, such as hallucinations or delusions, but my symptoms do not align with any specific schizophrenia spectrum or psychotic disorder.",
+"My symptoms are consistent with other specified schizophrenia spectrum and other psychotic disorder.",
+"How can I manage other specified schizophrenia spectrum and other psychotic disorder?",
+"What treatment options are available for other specified schizophrenia spectrum and other psychotic disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a psychiatrist or psychologist, is important in managing other specified schizophrenia spectrum and other psychotic disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy for psychosis (CBTp) or family therapy, can help individuals cope with psychotic symptoms and improve overall functioning.",
+"Considering medication options, such as antipsychotics, under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Establishing a strong support system, including family, friends, and support groups, can provide additional assistance and understanding."
+]
+},
+{"tag" : "Unspecified schizophrenia spectrum and other psychotic disorder",
+"patterns": [
+"I experience psychotic symptoms, such as hallucinations or delusions, but I am uncertain about the specific diagnosis within the schizophrenia spectrum or psychotic disorders.",
+"My symptoms align with a schizophrenia spectrum or psychotic disorder, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified schizophrenia spectrum and other psychotic disorder?",
+"What treatment options are available for unspecified schizophrenia spectrum and other psychotic disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a psychiatrist or psychologist, is important in managing unspecified schizophrenia spectrum and other psychotic disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy for psychosis (CBTp) or individual therapy, can help individuals cope with psychotic symptoms and develop strategies for daily functioning.",
+"Considering medication options, such as antipsychotics, under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Establishing a strong support system, including family, friends, and support groups, can provide additional assistance and understanding."
+]
+},
+{"tag" : "Other specified obsessive-compulsive and related disorder",
+"patterns": [
+"I experience repetitive thoughts, urges, or behaviors that significantly impact my daily life, but my symptoms do not align with any specific obsessive-compulsive or related disorder.",
+"My symptoms are consistent with other specified obsessive-compulsive and related disorder.",
+"How can I manage other specified obsessive-compulsive and related disorder?",
+"What treatment options are available for other specified obsessive-compulsive and related disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, is important in managing other specified obsessive-compulsive and related disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or exposure and response prevention (ERP), can help individuals address the underlying causes of obsessive-compulsive symptoms and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs) or tricyclic antidepressants (TCAs), under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring stress reduction techniques, relaxation exercises, and lifestyle modifications can support overall well-being and help manage symptoms."
+]
+},
+{"tag" : "Unspecified obsessive-compulsive and related disorder",
+"patterns": [
+"I experience repetitive thoughts, urges, or behaviors that significantly impact my daily life, but I am uncertain about the specific diagnosis within the obsessive-compulsive and related disorders.",
+"My symptoms align with obsessive-compulsive disorder, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified obsessive-compulsive and related disorder?",
+"What treatment options are available for unspecified obsessive-compulsive and related disorder?"
+],
+"responses": [
+"Consulting with a mental health professional, such as a therapist or psychiatrist, is important in managing unspecified obsessive-compulsive and related disorder.",
+"Engaging in therapy, such as cognitive-behavioral therapy (CBT) or acceptance and commitment therapy (ACT), can help individuals address the underlying causes of obsessive-compulsive symptoms and develop coping mechanisms.",
+"Considering medication options, such as selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs), under the guidance of a healthcare professional, may be beneficial in managing symptoms.",
+"Exploring stress reduction techniques, relaxation exercises, and lifestyle modifications can support overall well-being and help manage symptoms."
+]
+},
+{"tag" : "Other specified trauma- and stressor-related disorder",
+"patterns": [
+"I have experienced a traumatic event or ongoing stress that significantly impacts my mental health, but my symptoms do not align with any specific trauma- and stressor-related disorder.",
+"My symptoms are consistent with other specified trauma- and stressor-related disorder.",
+"How can I manage other specified trauma- and stressor-related disorder?",
+"What treatment options are available for other specified trauma- and stressor-related disorder?"
+],
+"responses": [
+"Engaging in therapy, such as trauma-focused therapy or eye movement desensitization and reprocessing (EMDR), can help individuals process traumatic experiences and develop coping mechanisms.",
+"Exploring self-care practices, stress reduction techniques, and seeking support from trusted individuals or support groups can support overall well-being and help manage symptoms."
+]
+},
+{"tag" : "Unspecified trauma- and stressor-related disorder",
+"patterns": [
+"I have experienced a traumatic event or ongoing stress that significantly impacts my mental health, but I am uncertain about the specific diagnosis within the trauma- and stressor-related disorders.",
+"My symptoms align with trauma- and stressor-related disorder, but I am unsure about the specific diagnosis.",
+"How can I manage unspecified trauma- and stressor-related disorder?",
+"What treatment options are available for unspecified trauma- and stressor-related disorder?"
+],
+"responses": [
+"Engaging in therapy, such as trauma-focused therapy or cognitive-behavioral therapy (CBT), can help individuals process traumatic experiences and develop coping mechanisms.",
+"Exploring self-care practices, stress reduction techniques, and seeking support from trusted individuals or support groups can support overall well-being and help manage symptoms."
+]
+}
+]
+}
