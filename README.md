@@ -30,13 +30,16 @@ To run this project, you will need the following:
 3. Open a terminal and navigate to the project directory.
 4. Run the following command to start the chatbot:
 
-        python Main1.py
+        AI Text to Text chatbot :-> python Main1.py
+
+   	AI Voice to Text chatbot :-> python Main2.py
 
 ## Directory Structure
 * JSON_FILES: contains the intents.json file used for training the model
 * pickle_files: contains the label_encoder1.pickle and tokenizer1.pickle files used for loading the model
 * AI_Text_Training1.py: script for training the model using neural network
-* Main1.py: script for running the chatbot
+* Main1.py: script for running the Text to Text chatbot
+* Main2.py: script for running the Voice to Text chatbot
 chat_model1: trained model file
 
 ## Build With
