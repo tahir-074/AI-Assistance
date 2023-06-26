@@ -20,8 +20,8 @@ To run this project, you will need the following:
 	Scikit Learn 0.23.0
 	Tkinter 8.6. 12
  You can install these packages by running the following command:
-
-    pip install --file requirements.txt
+ 
+ 	pip install -r /path/to/requirements.txt
 	
 ## Usage
 
