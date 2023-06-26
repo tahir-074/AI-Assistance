@@ -29,10 +29,8 @@ To run this project, you will need the following:
 2. Install the required packages
 3. Open a terminal and navigate to the project directory.
 4. Run the following command to start the chatbot:
-
-        AI Text to Text chatbot :-> python Main1.py
-
-   	AI Voice to Text chatbot :-> python Main2.py
+   
+        AI Text to Text chatbot :-> python Main1.py  or for AI Voice to Text chatbot :-> python Main2.py
 
 ## Directory Structure
 * JSON_FILES: contains the intents.json file used for training the model
