@@ -130,8 +130,8 @@ username_label.grid(row=0, column=0, padx=10, sticky="e")
 username = ttk.Entry(input_frame)
 username.grid(row=0, column=1, padx=10, sticky="w")
 
-user_input = ScrolledText(input_frame, height=3, width=40)
-user_input.grid(row=1, column=0, columnspan=2, padx=10, pady=5)
+# user_input = ScrolledText(input_frame, height=3, width=40)
+# user_input.grid(row=1, column=0, columnspan=2, padx=10, pady=5)
 
 microphone_button = ttk.Button(input_frame, text="Start Microphone", command=toggle_microphone)
 microphone_button.grid(row=1, column=2, padx=10, pady=5, sticky="w")
