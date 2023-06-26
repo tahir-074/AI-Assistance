@@ -31,6 +31,7 @@ To run this project, you will need the following:
 4. Run the following command to start the chatbot:
    
         AI Text to Text chatbot :-> python Main1.py  or for AI Voice to Text chatbot :-> python Main2.py
+6. Wait for few minutes unitl its open the desired py file.
 
 ## Directory Structure
 * JSON_FILES: contains the intents.json file used for training the model
