@@ -35,7 +35,7 @@ To run this project, you will need the following:
 chat_model1: trained model file
 
 ## Build With
-* PyCharm 2021.3 (Community Edition)
+* Jupyter Notebook
 * Python
 * TensorFlow
 * Keras
