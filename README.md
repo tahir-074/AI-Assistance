@@ -1,6 +1,9 @@
 # AI Chatbot
 The purpose of an AI chatbot system is to provide advice and treatment options for individuals who are experiencing mental health problems.
 
+# Check out this video
+https://www.youtube.com/watch?v=CUXjfr9kTqg
+
 ## AI Text to Text chatbot
 ![image](https://github.com/tahir-074/AI_Assistance/assets/76201545/25e49b13-49c0-46c7-bce4-4193699d37da)
 
@@ -48,6 +51,9 @@ To run this project, you will need the following:
 * TensorFlow
 * Keras
 * Scikit-Learn
+
+## Let's connect:
+https://www.linkedin.com/in/mohammed-tahir-mohiuddin-4785791a2/
 
 ## Disclaimer
 The training code provided here serves as a basic implementation for training a neural network model on a specific dataset. It is important to note that this code may not capture all possible scenarios and variations that could arise in a production environment.
