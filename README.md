@@ -39,7 +39,7 @@ To run this project, you will need the following:
 * AI_Text_Training1.py: script for training the model using neural network
 * Main1.py: script for running the Text to Text chatbot
 * Main2.py: script for running the Voice to Text chatbot
-chat_model1: trained model file
+* chat_model1: trained model file
 
 ## Build With
 * Jupyter Notebook
