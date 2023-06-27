@@ -8,6 +8,9 @@ from tensorflow import keras
 from keras.preprocessing.text import tokenizer_from_json
 import pickle
 from datetime import datetime
+import smtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 # Initialize GUI
 root = tk.Tk()
@@ -63,13 +66,52 @@ def send_message():
         user_input.delete("1.0", tk.END)
         conversation_log.see(tk.END)
 
+# def save_conversation():
+#     conversation = conversation_log.get("1.0", tk.END)
+#     username_value = username.get()
+#     filename = f"resources/conversations1/_T_Training1_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+#     with open(filename, 'w') as txt:
+#         txt.write(conversation)
+#     print(f"Conversation saved to {filename}")
+
 def save_conversation():
     conversation = conversation_log.get("1.0", tk.END)
     username_value = username.get()
     filename = f"resources/conversations1/_T_Training1_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+
     with open(filename, 'w') as txt:
         txt.write(conversation)
-    print(f"Conversation saved to {filename}")
+
+    send_email(filename)
+    print(f"Conversation saved.")
+
+
+def send_email(filename):
+    sender_email = "mt580183@gmail.com"
+    sender_password = "P1fQRZOXNpT96CYE"
+    receiver_email = "mt580183@gmail.com"
+
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = receiver_email
+    message["Subject"] = "Conversation Log"
+
+    with open(filename, 'r') as txt:
+        conversation_text = txt.read()
+
+    message.attach(MIMEText(conversation_text, "plain"))
+
+    try:
+        smtp_server = "smtp-relay.sendinblue.com"
+        smtp_port = 587
+
+        with smtplib.SMTP(smtp_server, smtp_port) as server:
+            server.login(sender_email, sender_password)
+            server.sendmail(sender_email, receiver_email, message.as_string())
+        
+        print("Success.")
+    except smtplib.SMTPException as e:
+        print(f"Error occurred: {str(e)}")
 
 # Set up the conversation log
 conversation_frame = ttk.Frame(root)
@@ -99,5 +141,11 @@ root.bind('<Return>', lambda event: send_message())  # Bind the Enter key to sen
 # Set up the save button
 save_button = ttk.Button(root, text="Save Conversation", command=save_conversation)
 save_button.pack(pady=10)
+
+def on_closing():
+    save_conversation()
+    root.destroy()
+
+root.protocol("WM_DELETE_WINDOW", on_closing)
 
 root.mainloop()
