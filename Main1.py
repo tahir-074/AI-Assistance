@@ -11,6 +11,7 @@ from datetime import datetime
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import os
 
 # Initialize GUI
 root = tk.Tk()
@@ -73,11 +74,11 @@ def send_message():
 #     with open(filename, 'w') as txt:
 #         txt.write(conversation)
 #     print(f"Conversation saved to {filename}")
-
+send_email("filename.txt", "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
 def save_conversation():
     conversation = conversation_log.get("1.0", tk.END)
     username_value = username.get()
-    filename = f"resources/conversations1/_T_Training1_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+    filename = f"resources/conversations1/Text_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
 
     with open(filename, 'w') as txt:
         txt.write(conversation)
@@ -86,11 +87,7 @@ def save_conversation():
     print(f"Conversation saved.")
 
 
-def send_email(filename):
-    sender_email = "mt580183@gmail.com"
-    sender_password = "P1fQRZOXNpT96CYE"
-    receiver_email = "mt580183@gmail.com"
-
+def send_email(filename, sender_email, sender_password, receiver_email):
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
