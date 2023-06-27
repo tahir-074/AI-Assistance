@@ -157,8 +157,8 @@ microphone_button.grid(row=1, column=2, padx=10, pady=5, sticky="w")
 root.bind('<Return>', lambda event: send_message())  # Bind the Enter key to send message
 
 # Set up the save button
-# save_button = ttk.Button(root, text="Save Conversation", command=save_conversation)
-# save_button.pack(pady=10)
+save_button = ttk.Button(root, text="Save Conversation", command=save_conversation)
+save_button.pack(pady=10)
 
 def on_closing():
     save_conversation()
