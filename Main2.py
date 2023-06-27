@@ -61,20 +61,16 @@ def get_bot_response(user_message):
 def save_conversation():
     conversation = conversation_log.get("1.0", tk.END)
     username_value = username.get()
-    filename = f"resources/conversations1/_T_Training1_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+    filename = f"resources/conversations1/Voice_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
 
     with open(filename, 'w') as txt:
         txt.write(conversation)
 
     send_email(filename)
     print(f"Conversation saved.")
+send_email("filename.txt", "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
 
-
-def send_email(filename):
-    sender_email = "mt580183@gmail.com"
-    sender_password = "P1fQRZOXNpT96CYE"
-    receiver_email = "mt580183@gmail.com"
-
+def send_email(filename, sender_email, sender_password, receiver_email):
     message = MIMEMultipart()
     message["From"] = sender_email
     message["To"] = receiver_email
@@ -96,7 +92,6 @@ def send_email(filename):
         print("Success.")
     except smtplib.SMTPException as e:
         print(f"Error occurred: {str(e)}")
-
 
 is_listening = False
 
