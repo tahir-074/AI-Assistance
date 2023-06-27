@@ -2,10 +2,11 @@
 The purpose of an AI chatbot system is to provide advice and treatment options for individuals who are experiencing mental health problems.
 
 ## AI Text to Text chatbot
-![text](https://github.com/tahir-074/AI-Assistance/assets/76201545/532e5679-a6ed-4488-a30b-a92f669563d5)
+![image](https://github.com/tahir-074/AI_Assistance/assets/76201545/25e49b13-49c0-46c7-bce4-4193699d37da)
+
 
 ## AI Voice to Text chatbot
-![Voice](https://github.com/tahir-074/AI-Assistance/assets/76201545/80d86a11-39a9-4cd1-8d01-d8b5da0e81c4)
+![image](https://github.com/tahir-074/AI_Assistance/assets/76201545/bdaddde1-52d1-4281-8ba8-0051439df19e)
 
 
 ## Requirments
