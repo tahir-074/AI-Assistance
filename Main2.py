@@ -61,7 +61,7 @@ def get_bot_response(user_message):
 def save_conversation():
     conversation = conversation_log.get("1.0", tk.END)
     username_value = username.get()
-    filename = f"resources/conversations1/Voice_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+    filename = f"resources/resources1/conversations1/Voice_{username_value.upper()}_{datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
 
     with open(filename, 'w') as txt:
         txt.write(conversation)
@@ -157,8 +157,8 @@ microphone_button.grid(row=1, column=2, padx=10, pady=5, sticky="w")
 root.bind('<Return>', lambda event: send_message())  # Bind the Enter key to send message
 
 # Set up the save button
-save_button = ttk.Button(root, text="Save Conversation", command=save_conversation)
-save_button.pack(pady=10)
+# save_button = ttk.Button(root, text="Save Conversation", command=save_conversation)
+# save_button.pack(pady=10)
 
 def on_closing():
     save_conversation()
