@@ -107,7 +107,7 @@ def send_email(filename, sender_email, sender_password, receiver_email):
         
         print("Success.")
     except smtplib.SMTPException as e:
-        #print(f"Error occurred: {str(e)}")
+        print(f"Error occurred: {str(e)}")
 
 # Set up the conversation log
 conversation_frame = ttk.Frame(root)
